@@ -1,0 +1,3196 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Restauración de  Medios de Vida; encuesta 1. Familiar</h:title>
+    <model odk:xforms-version="1.0.0">
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/data/Distribucion_vivienda:hint">
+            <value>Lugares definidos de la casa</value>
+            <value form="guidance">Para que se utilizan los espacios de la casa</value>
+          </text>
+          <text id="/data/Detalle_del_modulo_sanitario:hint">
+            <value>Como es y con que cuenta</value>
+            <value form="guidance">descripción de como es</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data id="snapshot_xml">
+          <start/>
+          <end/>
+          <I_Datos_Generales>Encuesta para Familias</I_Datos_Generales>
+          <Fecha_de_levantamiento_de_la_Encuesta/>
+          <Nombre_del_encuestador/>
+          <Numero_de_DNI_del_encuestador/>
+          <Di_cesis/>
+          <Departamento/>
+          <Municipios_de_Atlantida/>
+          <Municipios_incorpora_el_doc_del_proyecto/>
+          <Departamento_incorporado_en_la/>
+          <Municipios_del_depar_en_doc_del_proyecto/>
+          <Departamento_de_la_di_cesis_de/>
+          <Departamento_incorporado_en_la_001/>
+          <Municipios_de_Comayagua/>
+          <Municipios_incorpora_el_doc_del_proyecto_001/>
+          <Municipios_del_depar_en_doc_del_proyecto_001/>
+          <Departamento_de_la_di_cesis_de_001/>
+          <Departamento_incorporado_en_la_002/>
+          <Municipio_de_Santa_Barbara/>
+          <Municipios_incorpora_el_doc_del_proyecto_002/>
+          <Municipios_del_depar_cumento_del_proyecto/>
+          <Municipios_del_depar_umentos_del_proyecto/>
+          <Parroquias_di_cesis_de_la_Ceib/>
+          <Parroquias_de_la_di_ista_de_preselecci_n/>
+          <Parroquia_de_la_di_cesis_de_Sa/>
+          <Parroquias_de_la_di_ista_de_preselecci_n_001/>
+          <Parroquia_de_la_di_cesis_de_Co/>
+          <Parroquias_de_la_di_ista_de_preselecci_n_002/>
+          <Comunidad/>
+          <Nombre_del_encuestado/>
+          <Geo_localizaci_n/>
+          <Sexo_del_encuestado/>
+          <Numero_de_DNI_del_encuestado/>
+          <Foto_del_Encuestado/>
+          <Celular/>
+          <II_Diagnostico>Diagnostico integrado</II_Diagnostico>
+          <group_xg2js72_header>
+            <group_xg2js72_header_note/>
+            <group_xg2js72_header_columna/>
+          </group_xg2js72_header>
+          <group_xg2js72_sa_1lud_1>
+            <group_xg2js72_sa_1lud_1_note/>
+            <group_xg2js72_sa_1lud_1_columna/>
+          </group_xg2js72_sa_1lud_1>
+          <group_xg2js72_agua_1>
+            <group_xg2js72_agua_1_note/>
+            <group_xg2js72_agua_1_columna/>
+          </group_xg2js72_agua_1>
+          <group_xg2js72_carreteras_1>
+            <group_xg2js72_carreteras_1_note/>
+            <group_xg2js72_carreteras_1_columna/>
+          </group_xg2js72_carreteras_1>
+          <group_xg2js72_energ_1>
+            <group_xg2js72_energ_1_note/>
+            <group_xg2js72_energ_1_columna/>
+          </group_xg2js72_energ_1>
+          <group_xg2js72_educacion_1>
+            <group_xg2js72_educacion_1_note/>
+            <group_xg2js72_educacion_1_columna/>
+          </group_xg2js72_educacion_1>
+          <Cuales_son_los_princ_emas_en_la_comunidad>
+            <Cuales_son_los_princ_emas_en_la_comunidad/>
+            <pobreza/>
+            <delicuencia/>
+            <atentados_vida/>
+            <extorsion/>
+            <Enfermedades/>
+            <violencia_familiar/>
+            <vagancia/>
+            <desempleo/>
+            <emigraci_n/>
+            <otros/>
+          </Cuales_son_los_princ_emas_en_la_comunidad>
+          <Solo_para_especifica_emas_en_la_comunidad/>
+          <Eventos_que_provocan_dad_en_la_comunidad>
+            <Eventos_que_provocan_dad_en_la_comunidad/>
+            <inundaciones_cultivos/>
+            <inundaciones_casas/>
+            <delizamiento_predios/>
+            <deslizamiento_casa/>
+            <aislamiento_calles/>
+            <sequias/>
+            <agua_cpnsumo/>
+            <enfermedades_humanos/>
+            <enferemedades_cultivos/>
+            <incendios/>
+            <escases_alimetos/>
+            <otros_001/>
+          </Eventos_que_provocan_dad_en_la_comunidad>
+          <Solo_para_especifica_tos_en_la_comunidad/>
+          <III_Lineal_Base>Línea base del proyecto</III_Lineal_Base>
+          <El_encuestado_es_jefe_de_famil/>
+          <De_ser_seleccionado_su_partic/>
+          <Otros_representa_la_familia_n/>
+          <Otros_representa_la_familia_Numero_DNI/>
+          <Estado_Civil_representante_de_la_familia/>
+          <El_miembro_sabe_leer_y_escribi/>
+          <Escolaridad_miembros/>
+          <group_mf3ow18_header>
+            <group_mf3ow18_header_note/>
+            <group_mf3ow18_header_mujer/>
+            <group_mf3ow18_header_hombre_1/>
+          </group_mf3ow18_header>
+          <group_mf3ow18_menores_6_meses_1>
+            <group_mf3ow18_menores_6_meses_1_note/>
+            <group_mf3ow18_menores_6_meses_1_mujer/>
+            <group_mf3ow18_menores_6_meses_1_hombre_1/>
+          </group_mf3ow18_menores_6_meses_1>
+          <group_mf3ow18_7a23mese_1>
+            <group_mf3ow18_7a23mese_1_note/>
+            <group_mf3ow18_7a23mese_1_mujer/>
+            <group_mf3ow18_7a23mese_1_hombre_1/>
+          </group_mf3ow18_7a23mese_1>
+          <group_mf3ow18_2_a5_as_1>
+            <group_mf3ow18_2_a5_as_1_note/>
+            <group_mf3ow18_2_a5_as_1_mujer/>
+            <group_mf3ow18_2_a5_as_1_hombre_1/>
+          </group_mf3ow18_2_a5_as_1>
+          <group_mf3ow18_6a_17_as_1_1>
+            <group_mf3ow18_6a_17_as_1_1_note/>
+            <group_mf3ow18_6a_17_as_1_1_mujer/>
+            <group_mf3ow18_6a_17_as_1_1_hombre_1/>
+          </group_mf3ow18_6a_17_as_1_1>
+          <group_mf3ow18_18a_60_as_1>
+            <group_mf3ow18_18a_60_as_1_note/>
+            <group_mf3ow18_18a_60_as_1_mujer/>
+            <group_mf3ow18_18a_60_as_1_hombre_1/>
+          </group_mf3ow18_18a_60_as_1>
+          <group_mf3ow18_mayores60_as_1_1>
+            <group_mf3ow18_mayores60_as_1_1_note/>
+            <group_mf3ow18_mayores60_as_1_1_mujer/>
+            <group_mf3ow18_mayores60_as_1_1_hombre_1/>
+          </group_mf3ow18_mayores60_as_1_1>
+          <Capacidades_especiales/>
+          <Detalle_Cuantos_la_cial_sexo_y_la_edad/>
+          <_1_Prop_sitos_y_resultados>Propósito 1;Resultado 1.1</_1_Prop_sitos_y_resultados>
+          <Los_ingresos_de_la_f_una_o_varias_fuentes>
+            <Los_ingresos_de_la_f_una_o_varias_fuentes/>
+            <_1_fuente_ingresos/>
+            <_2_fuente_ingresos/>
+            <_3_fuente_ingresos/>
+          </Los_ingresos_de_la_f_una_o_varias_fuentes>
+          <si_se_seleccion_otros_detallar_cuales/>
+          <Ingresos_afectados/>
+          <Grado_afectacion_ingresos/>
+          <Descripcion_afectacion_total/>
+          <Ha_participado_en_alguna_organ/>
+          <Si_participa_en_algu_izaciones_siguientes/>
+          <Ahora_no_participa_izaciones_siguientes/>
+          <Como_califica_su_exp_n_las_organizaciones/>
+          <Usted_recomienda_alg_comunidad_o_cercana/>
+          <_2_Prop_sitos_y_resultados>Propósito 2; resultados:2.1,2.2,2.3</_2_Prop_sitos_y_resultados>
+          <Fuentes_agua_consumo/>
+          <Otras_fuentes_de_agua/>
+          <almacena_agua_hogar/>
+          <Otras_almacenamiento_agua/>
+          <Distribucion_vivienda/>
+          <techo_materiales/>
+          <paredes_materiales/>
+          <piso_materiales/>
+          <Detalle_del_modulo_sanitario/>
+          <En_que_capacitaciones_ha_participado/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/data/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/data/end" type="dateTime"/>
+      <bind nodeset="/data/I_Datos_Generales" required="false()" type="string"/>
+      <bind nodeset="/data/Fecha_de_levantamiento_de_la_Encuesta" required="true()" type="date"/>
+      <bind nodeset="/data/Nombre_del_encuestador" required="false()" type="string"/>
+      <bind nodeset="/data/Numero_de_DNI_del_encuestador" required="false()" type="string"/>
+      <bind nodeset="/data/Di_cesis" required="true()" type="string"/>
+      <bind nodeset="/data/Departamento" relevant=" /data/Di_cesis  = 'la_ceiba'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_de_Atlantida" relevant=" /data/Departamento  = 'atl_ntida'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_incorpora_el_doc_del_proyecto" relevant=" /data/Municipios_de_Atlantida  = 'tela'" required="true()" type="string"/>
+      <bind nodeset="/data/Departamento_incorporado_en_la" relevant=" /data/Departamento  = 'islas_de_la_bah_a'" required="true()" type="string"/>
+      <bind nodeset="/data/Municipios_del_depar_en_doc_del_proyecto" relevant=" /data/Departamento_incorporado_en_la  = 'islas_de_la_bah_a'" required="false()" type="string"/>
+      <bind nodeset="/data/Departamento_de_la_di_cesis_de" relevant=" /data/Di_cesis  = 'comayagua'" required="false()" type="string"/>
+      <bind nodeset="/data/Departamento_incorporado_en_la_001" relevant=" /data/Departamento_de_la_di_cesis_de  = 'la_paz'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_de_Comayagua" relevant=" /data/Departamento_de_la_di_cesis_de  = 'comayagua'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_incorpora_el_doc_del_proyecto_001" relevant=" /data/Municipios_de_Comayagua  = 'otros_municipios_que_no_est_n_en_documen'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_del_depar_en_doc_del_proyecto_001" relevant=" /data/Departamento_incorporado_en_la_001  = 'la_paz'" required="false()" type="string"/>
+      <bind nodeset="/data/Departamento_de_la_di_cesis_de_001" relevant=" /data/Di_cesis  = 'santa_rosa_de_cop_n'" required="false()" type="string"/>
+      <bind nodeset="/data/Departamento_incorporado_en_la_002" relevant=" /data/Departamento_de_la_di_cesis_de_001  = 'Otros_depto_SRC'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipio_de_Santa_Barbara" relevant=" /data/Departamento_de_la_di_cesis_de_001  = 'santa_barbara'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_incorpora_el_doc_del_proyecto_002" relevant=" /data/Municipio_de_Santa_Barbara  = 'otros_municipios_que_no_est_n_en_documen'" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_del_depar_cumento_del_proyecto" relevant="selected( /data/Departamento_incorporado_en_la_002 , 'copan')" required="false()" type="string"/>
+      <bind nodeset="/data/Municipios_del_depar_umentos_del_proyecto" relevant="selected( /data/Departamento_incorporado_en_la_002 , 'ocotepeque')" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquias_di_cesis_de_la_Ceib" relevant=" /data/Di_cesis  = 'la_ceiba'" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquias_de_la_di_ista_de_preselecci_n" relevant=" /data/Parroquias_di_cesis_de_la_Ceib  = 'otra_parroquia_ceiba'" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquia_de_la_di_cesis_de_Sa" relevant=" /data/Di_cesis  = 'santa_rosa_de_cop_n'" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquias_de_la_di_ista_de_preselecci_n_001" relevant=" /data/Parroquia_de_la_di_cesis_de_Sa  = 'Otras_parroquias_SRC'" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquia_de_la_di_cesis_de_Co" relevant=" /data/Di_cesis  = 'comayagua'" required="false()" type="string"/>
+      <bind nodeset="/data/Parroquias_de_la_di_ista_de_preselecci_n_002" relevant=" /data/Parroquia_de_la_di_cesis_de_Co  = 'otras_parroquias_comayagua'" required="false()" type="string"/>
+      <bind nodeset="/data/Comunidad" required="true()" type="string"/>
+      <bind nodeset="/data/Nombre_del_encuestado" required="true()" type="string"/>
+      <bind nodeset="/data/Geo_localizaci_n" required="true()" type="geopoint"/>
+      <bind nodeset="/data/Sexo_del_encuestado" required="false()" type="string"/>
+      <bind nodeset="/data/Numero_de_DNI_del_encuestado" required="true()" type="string"/>
+      <bind nodeset="/data/Foto_del_Encuestado" required="false()" type="binary"/>
+      <bind nodeset="/data/Celular" required="true()" type="string"/>
+      <bind nodeset="/data/II_Diagnostico" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_header/group_xg2js72_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_header/group_xg2js72_header_columna" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_sa_1lud_1/group_xg2js72_sa_1lud_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_sa_1lud_1/group_xg2js72_sa_1lud_1_columna" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_agua_1/group_xg2js72_agua_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_agua_1/group_xg2js72_agua_1_columna" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_carreteras_1/group_xg2js72_carreteras_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_carreteras_1/group_xg2js72_carreteras_1_columna" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_energ_1/group_xg2js72_energ_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_energ_1/group_xg2js72_energ_1_columna" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_educacion_1/group_xg2js72_educacion_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_xg2js72_educacion_1/group_xg2js72_educacion_1_columna" required="false()" type="string"/>
+      <bind nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/Cuales_son_los_princ_emas_en_la_comunidad" readonly="true()" type="string"/>
+      <bind jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n" required="true()" type="string"/>
+      <bind constraint=" /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo  and  /data/Cuales_son_los_princ_emas_en_la_comunidad/otros  !=  /data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Cuales_son_los_princ_emas_en_la_comunidad/otros" required="true()" type="string"/>
+      <bind nodeset="/data/Solo_para_especifica_emas_en_la_comunidad" required="false()" type="string"/>
+      <bind nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/Eventos_que_provocan_dad_en_la_comunidad" readonly="true()" type="string"/>
+      <bind jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/sequias" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  and  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/incendios" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos" required="true()" type="string"/>
+      <bind constraint=" /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/sequias  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/incendios  and  /data/Eventos_que_provocan_dad_en_la_comunidad/otros_001  !=  /data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Eventos_que_provocan_dad_en_la_comunidad/otros_001" required="true()" type="string"/>
+      <bind nodeset="/data/Solo_para_especifica_tos_en_la_comunidad" required="false()" type="string"/>
+      <bind nodeset="/data/III_Lineal_Base" required="false()" type="string"/>
+      <bind nodeset="/data/El_encuestado_es_jefe_de_famil" required="false()" type="string"/>
+      <bind nodeset="/data/De_ser_seleccionado_su_partic" required="false()" type="string"/>
+      <bind nodeset="/data/Otros_representa_la_familia_n" relevant=" /data/De_ser_seleccionado_su_partic  = 'como_miembros_de_familia_y_otr'" required="false()" type="string"/>
+      <bind nodeset="/data/Otros_representa_la_familia_Numero_DNI" relevant=" /data/De_ser_seleccionado_su_partic  = 'como_miembros_de_familia_y_otr'" required="false()" type="string"/>
+      <bind nodeset="/data/Estado_Civil_representante_de_la_familia" required="true()" type="string"/>
+      <bind nodeset="/data/El_miembro_sabe_leer_y_escribi" required="false()" type="string"/>
+      <bind nodeset="/data/Escolaridad_miembros" relevant=" /data/El_miembro_sabe_leer_y_escribi  = 'si'" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_header/group_mf3ow18_header_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_header/group_mf3ow18_header_mujer" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_header/group_mf3ow18_header_hombre_1" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_note" readonly="true()" required="false()" type="string"/>
+      <bind nodeset="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_mujer" required="false()" type="int"/>
+      <bind nodeset="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_hombre_1" required="false()" type="int"/>
+      <bind nodeset="/data/Capacidades_especiales" required="false()" type="string"/>
+      <bind nodeset="/data/Detalle_Cuantos_la_cial_sexo_y_la_edad" relevant=" /data/Capacidades_especiales  = 'si'" required="false()" type="string"/>
+      <bind nodeset="/data/_1_Prop_sitos_y_resultados" required="false()" type="string"/>
+      <bind nodeset="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/Los_ingresos_de_la_f_una_o_varias_fuentes" readonly="true()" type="string"/>
+      <bind jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_1_fuente_ingresos" required="true()" type="string"/>
+      <bind constraint=" /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_2_fuente_ingresos  !=  /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_1_fuente_ingresos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_2_fuente_ingresos" required="true()" type="string"/>
+      <bind constraint=" /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_3_fuente_ingresos  !=  /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_1_fuente_ingresos  and  /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_3_fuente_ingresos  !=  /data/Los_ingresos_de_la_f_una_o_varias_fuentes/_2_fuente_ingresos " jr:constraintMsg="Los artículos no se pueden seleccionar más de una vez" nodeset="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_3_fuente_ingresos" required="true()" type="string"/>
+      <bind nodeset="/data/si_se_seleccion_otros_detallar_cuales" required="false()" type="string"/>
+      <bind nodeset="/data/Ingresos_afectados" required="false()" type="string"/>
+      <bind nodeset="/data/Grado_afectacion_ingresos" relevant=" /data/Ingresos_afectados  = 'si'" required="false()" type="string"/>
+      <bind nodeset="/data/Descripcion_afectacion_total" relevant=" /data/Grado_afectacion_ingresos  = 'severamente_afectada__91_a_100'" required="false()" type="string"/>
+      <bind nodeset="/data/Ha_participado_en_alguna_organ" required="false()" type="string"/>
+      <bind nodeset="/data/Si_participa_en_algu_izaciones_siguientes" relevant=" /data/Ha_participado_en_alguna_organ  = 'Organizacion_si'" required="false()" type="string"/>
+      <bind nodeset="/data/Ahora_no_participa_izaciones_siguientes" relevant=" /data/Ha_participado_en_alguna_organ  = 'organizacion_ahora_no'" required="false()" type="string"/>
+      <bind nodeset="/data/Como_califica_su_exp_n_las_organizaciones" relevant=" /data/Ha_participado_en_alguna_organ  = 'Organizacion_si' and  /data/Ha_participado_en_alguna_organ  = 'organizacion_ahora_no'" required="false()" type="string"/>
+      <bind nodeset="/data/Usted_recomienda_alg_comunidad_o_cercana" required="false()" type="string"/>
+      <bind nodeset="/data/_2_Prop_sitos_y_resultados" required="false()" type="string"/>
+      <bind nodeset="/data/Fuentes_agua_consumo" required="false()" type="string"/>
+      <bind nodeset="/data/Otras_fuentes_de_agua" relevant="selected( /data/Fuentes_agua_consumo , 'otros__especifique')" required="false()" type="string"/>
+      <bind nodeset="/data/almacena_agua_hogar" required="false()" type="string"/>
+      <bind nodeset="/data/Otras_almacenamiento_agua" relevant="selected( /data/almacena_agua_hogar , 'otros')" required="false()" type="string"/>
+      <bind nodeset="/data/Distribucion_vivienda" required="false()" type="string"/>
+      <bind nodeset="/data/techo_materiales" required="false()" type="string"/>
+      <bind nodeset="/data/paredes_materiales" required="false()" type="string"/>
+      <bind nodeset="/data/piso_materiales" required="false()" type="string"/>
+      <bind nodeset="/data/Detalle_del_modulo_sanitario" required="false()" type="string"/>
+      <bind nodeset="/data/En_que_capacitaciones_ha_participado" required="false()" type="string"/>
+      <bind jr:preload="uid" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/I_Datos_Generales">
+      <label>I Datos Generales</label>
+    </input>
+    <input ref="/data/Fecha_de_levantamiento_de_la_Encuesta">
+      <label>Fecha de levantamiento de la Encuesta</label>
+    </input>
+    <input ref="/data/Nombre_del_encuestador">
+      <label>Nombre del encuestador</label>
+    </input>
+    <input ref="/data/Numero_de_DNI_del_encuestador">
+      <label>Numero de DNI del encuestador</label>
+      <hint>Numero de identidad</hint>
+    </input>
+    <select1 ref="/data/Di_cesis">
+      <label>Diócesis</label>
+      <item>
+        <label>La Ceiba</label>
+        <value>la_ceiba</value>
+      </item>
+      <item>
+        <label>Comayagua </label>
+        <value>comayagua</value>
+      </item>
+      <item>
+        <label>Santa Rosa de Copán </label>
+        <value>santa_rosa_de_cop_n</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Departamento">
+      <label>Departamentos de la diócesis de la Ceiba</label>
+      <item>
+        <label>Atlántida </label>
+        <value>atl_ntida</value>
+      </item>
+      <item>
+        <label>Otro Departamento que no esta en el documento de proyecto en la diócesis de la Ceiba</label>
+        <value>islas_de_la_bah_a</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_de_Atlantida">
+      <label>Municipios de Atlantida</label>
+      <item>
+        <label>Arizona </label>
+        <value>arizona</value>
+      </item>
+      <item>
+        <label>Esparta</label>
+        <value>esparta</value>
+      </item>
+      <item>
+        <label>Otros municipios que no están en documentos de proyecto del departamento de Atlántida</label>
+        <value>tela</value>
+      </item>
+    </select1>
+    <select ref="/data/Municipios_incorpora_el_doc_del_proyecto">
+      <label>Municipios incorporados en el departamento de Atlántida que no están en el doc. del proyecto</label>
+      <item>
+        <label>Tela</label>
+        <value>tela</value>
+      </item>
+      <item>
+        <label>La Másica</label>
+        <value>la_m_sica</value>
+      </item>
+      <item>
+        <label>El Porvenir</label>
+        <value>el_porvenir</value>
+      </item>
+      <item>
+        <label>San Francisco</label>
+        <value>san_francisco</value>
+      </item>
+      <item>
+        <label>La Ceiba</label>
+        <value>la_ceiba</value>
+      </item>
+      <item>
+        <label>Jutiapa</label>
+        <value>jutiapa</value>
+      </item>
+    </select>
+    <select1 ref="/data/Departamento_incorporado_en_la">
+      <label>Departamento incorporado en la diócesis de la Ceiba que no esta en documento de proyecto</label>
+      <item>
+        <label>Islas de la Bahía</label>
+        <value>islas_de_la_bah_a</value>
+      </item>
+    </select1>
+    <select ref="/data/Municipios_del_depar_en_doc_del_proyecto">
+      <label>Municipios del departamento incorporado en la diócesis de la Ceiba, que no esta en doc. del proyecto</label>
+      <item>
+        <label>Roatán</label>
+        <value>roat_n</value>
+      </item>
+      <item>
+        <label>Jose Santos Guardiola</label>
+        <value>jose_santos_guardiola</value>
+      </item>
+      <item>
+        <label>Guanaja</label>
+        <value>guanaja</value>
+      </item>
+      <item>
+        <label>Utila</label>
+        <value>utila</value>
+      </item>
+    </select>
+    <select1 ref="/data/Departamento_de_la_di_cesis_de">
+      <label>Departamento de la diócesis de Comayagua</label>
+      <item>
+        <label>Comayagua</label>
+        <value>comayagua</value>
+      </item>
+      <item>
+        <label>Otro Departamento que no esta en el documento de proyecto en la diócesis de la Comayagua</label>
+        <value>la_paz</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Departamento_incorporado_en_la_001">
+      <label>Departamento incorporado en la diócesis de la Comayagua que no esta en documento de proyecto</label>
+      <item>
+        <label>La Paz</label>
+        <value>la_paz</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_de_Comayagua">
+      <label>Municipios de Comayagua</label>
+      <item>
+        <label>Comayagua</label>
+        <value>comayagua</value>
+      </item>
+      <item>
+        <label>El Rosario</label>
+        <value>el_rosario</value>
+      </item>
+      <item>
+        <label>San Jerónimo</label>
+        <value>san_jer_nimo</value>
+      </item>
+      <item>
+        <label>La Trinidad</label>
+        <value>la_trinidad</value>
+      </item>
+      <item>
+        <label>Otros municipios que no están en documentos de proyecto del departamento de Comayagua</label>
+        <value>otros_municipios_que_no_est_n_en_documen</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_incorpora_el_doc_del_proyecto_001">
+      <label>Municipios incorporados en el departamento de Comayagua que no están en el doc. del proyecto</label>
+      <item>
+        <label>Ajuterique</label>
+        <value>ajuterique</value>
+      </item>
+      <item>
+        <label>Esquías</label>
+        <value>esqu_as</value>
+      </item>
+      <item>
+        <label>Humuya</label>
+        <value>humuya</value>
+      </item>
+      <item>
+        <label>La Libertad</label>
+        <value>la_libertad</value>
+      </item>
+      <item>
+        <label>Lamaní </label>
+        <value>laman</value>
+      </item>
+      <item>
+        <label>Las Lajas</label>
+        <value>las_lajas</value>
+      </item>
+      <item>
+        <label>Lejamaní</label>
+        <value>lejaman</value>
+      </item>
+      <item>
+        <label>Meámbar</label>
+        <value>me_mbar</value>
+      </item>
+      <item>
+        <label>Minas de Oro</label>
+        <value>minas_de_oro</value>
+      </item>
+      <item>
+        <label>Ojos de Agua</label>
+        <value>ojos_de_agua</value>
+      </item>
+      <item>
+        <label>San José de Comayagua</label>
+        <value>san_jos__de_comayagua</value>
+      </item>
+      <item>
+        <label>San José del Potrero</label>
+        <value>san_jos__del_potrero</value>
+      </item>
+      <item>
+        <label>San Luis</label>
+        <value>san_luis</value>
+      </item>
+      <item>
+        <label>San Sebastián</label>
+        <value>san_sebasti_n</value>
+      </item>
+      <item>
+        <label>Siguatepeque</label>
+        <value>siguatepeque</value>
+      </item>
+      <item>
+        <label>Taulabé</label>
+        <value>taulab</value>
+      </item>
+      <item>
+        <label>Villa de San Antonio</label>
+        <value>villa_de_san_antonio</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_del_depar_en_doc_del_proyecto_001">
+      <label>Municipios del departamento incorporado en la diócesis de la Comayagua, que no esta en doc. del proyecto</label>
+      <item>
+        <label>La Paz</label>
+        <value>la_paz</value>
+      </item>
+      <item>
+        <label>Aguantequerique</label>
+        <value>aguantequerique</value>
+      </item>
+      <item>
+        <label>Cabañas</label>
+        <value>caba_as</value>
+      </item>
+      <item>
+        <label>Cane</label>
+        <value>cane</value>
+      </item>
+      <item>
+        <label>Chinacla</label>
+        <value>chinacla</value>
+      </item>
+      <item>
+        <label>Guajiquiro</label>
+        <value>guajiquiro</value>
+      </item>
+      <item>
+        <label>Lauterique</label>
+        <value>lauterique</value>
+      </item>
+      <item>
+        <label>Marcala</label>
+        <value>marcala</value>
+      </item>
+      <item>
+        <label>Mercedes de Oriente</label>
+        <value>mercedes_de_oriente</value>
+      </item>
+      <item>
+        <label>Opatoro</label>
+        <value>opatoro</value>
+      </item>
+      <item>
+        <label>San Antonio del Norte</label>
+        <value>san_antonio_del_norte</value>
+      </item>
+      <item>
+        <label>San José</label>
+        <value>san_jos</value>
+      </item>
+      <item>
+        <label>San Juan</label>
+        <value>san_juan</value>
+      </item>
+      <item>
+        <label>San pedro de Tutule</label>
+        <value>san_pedro_de_tutule</value>
+      </item>
+      <item>
+        <label>Santa Ana</label>
+        <value>santa_ana</value>
+      </item>
+      <item>
+        <label>Santa Elena</label>
+        <value>santa_elena</value>
+      </item>
+      <item>
+        <label>Santa María</label>
+        <value>santa_mar_a</value>
+      </item>
+      <item>
+        <label>Santiago de Puringla</label>
+        <value>santiago_de_puringla</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Departamento_de_la_di_cesis_de_001">
+      <label>Departamento de la diócesis de Santa Rosa de Copan</label>
+      <item>
+        <label>Santa Barbara </label>
+        <value>santa_barbara</value>
+      </item>
+      <item>
+        <label>Otro Departamento que no esta en el documento de proyecto en la diócesis de Santa Rosa de Copan</label>
+        <value>Otros_depto_SRC</value>
+      </item>
+    </select1>
+    <select ref="/data/Departamento_incorporado_en_la_002">
+      <label>Departamento incorporado en la diócesis de la Santa Rosa de Copan que no esta en documento de proyecto</label>
+      <item>
+        <label>Copan</label>
+        <value>copan</value>
+      </item>
+      <item>
+        <label>Ocotepeque</label>
+        <value>ocotepeque</value>
+      </item>
+    </select>
+    <select1 ref="/data/Municipio_de_Santa_Barbara">
+      <label>Municipio de Santa Barbara</label>
+      <item>
+        <label>Atima </label>
+        <value>atima</value>
+      </item>
+      <item>
+        <label>Ilama</label>
+        <value>ilama</value>
+      </item>
+      <item>
+        <label>Trinidad </label>
+        <value>trinidad</value>
+      </item>
+      <item>
+        <label>Otros municipios que no están en documentos de proyecto del departamento de Santa Barbara</label>
+        <value>otros_municipios_que_no_est_n_en_documen</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_incorpora_el_doc_del_proyecto_002">
+      <label>Municipios incorporados en el departamento de Santa Barbara que no están en el doc. del proyecto</label>
+      <item>
+        <label>Santa Barbara</label>
+        <value>santa_barbara</value>
+      </item>
+      <item>
+        <label>Arada</label>
+        <value>arada</value>
+      </item>
+      <item>
+        <label>Azacualpa</label>
+        <value>azacualpa</value>
+      </item>
+      <item>
+        <label>Ceguaca</label>
+        <value>ceguaca</value>
+      </item>
+      <item>
+        <label>Chinda</label>
+        <value>chinda</value>
+      </item>
+      <item>
+        <label>Concepción del norte</label>
+        <value>concepci_n_del_norte</value>
+      </item>
+      <item>
+        <label>Concepción del sur</label>
+        <value>concepci_n_del_sur</value>
+      </item>
+      <item>
+        <label>El Níspero</label>
+        <value>el_n_spero</value>
+      </item>
+      <item>
+        <label>Gualala</label>
+        <value>gualala</value>
+      </item>
+      <item>
+        <label>Las Vegas</label>
+        <value>las_vegas</value>
+      </item>
+      <item>
+        <label>Macuelizo</label>
+        <value>macuelizo</value>
+      </item>
+      <item>
+        <label>Naranjito</label>
+        <value>naranjito</value>
+      </item>
+      <item>
+        <label>Nueva Frontera</label>
+        <value>nueva_frontera</value>
+      </item>
+      <item>
+        <label>Nuevo Celilac</label>
+        <value>nuevo_celilac</value>
+      </item>
+      <item>
+        <label>Petoa </label>
+        <value>petoa</value>
+      </item>
+      <item>
+        <label>Protección</label>
+        <value>protecci_n</value>
+      </item>
+      <item>
+        <label>Quimistan</label>
+        <value>quimistan</value>
+      </item>
+      <item>
+        <label>San Francisco de Ojuera</label>
+        <value>san_francisco_de_ojuera</value>
+      </item>
+      <item>
+        <label>San Jose de Colinas</label>
+        <value>san_josi_de_colinas</value>
+      </item>
+      <item>
+        <label>San Luis</label>
+        <value>san_luis</value>
+      </item>
+      <item>
+        <label>San Marcos</label>
+        <value>san_marcos</value>
+      </item>
+      <item>
+        <label>San Nicolás</label>
+        <value>san_nicol_s</value>
+      </item>
+      <item>
+        <label>San Pedro de Zacapa</label>
+        <value>san_pedro_de_zacapa</value>
+      </item>
+      <item>
+        <label>San Vicente Centenario</label>
+        <value>san_vicente_centenario</value>
+      </item>
+      <item>
+        <label>Santa Rita</label>
+        <value>santa_rita</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_del_depar_cumento_del_proyecto">
+      <label>Municipios del departamento de Copan, que no aparecen en el documento del proyecto</label>
+      <item>
+        <label>Santa Rosa de Copan</label>
+        <value>src</value>
+      </item>
+      <item>
+        <label>Cabañas</label>
+        <value>cabañas_src</value>
+      </item>
+      <item>
+        <label>Concepción</label>
+        <value>concepcion_src</value>
+      </item>
+      <item>
+        <label>Copan Ruinas</label>
+        <value>copan_ruina_src</value>
+      </item>
+      <item>
+        <label>Corquin</label>
+        <value>corquin_src</value>
+      </item>
+      <item>
+        <label>Cucuyagua</label>
+        <value>cucuyagua_src</value>
+      </item>
+      <item>
+        <label>Dolores</label>
+        <value>dolores_src</value>
+      </item>
+      <item>
+        <label>Dulce Nombre</label>
+        <value>dulce_nombre_src</value>
+      </item>
+      <item>
+        <label>El Paraiso</label>
+        <value>el_paraiso_src</value>
+      </item>
+      <item>
+        <label>Florida</label>
+        <value>florida_src</value>
+      </item>
+      <item>
+        <label>La jigua</label>
+        <value>la_jigua_src</value>
+      </item>
+      <item>
+        <label>La Unión</label>
+        <value>la_union_src</value>
+      </item>
+      <item>
+        <label>Nueva Arcadia</label>
+        <value>nueva_arcadia_src</value>
+      </item>
+      <item>
+        <label>San Agustín</label>
+        <value>san_agustin_src</value>
+      </item>
+      <item>
+        <label>San Antonio</label>
+        <value>san_antonio_src</value>
+      </item>
+      <item>
+        <label>San Jerónimo</label>
+        <value>san_jeronimo_src</value>
+      </item>
+      <item>
+        <label>San José</label>
+        <value>san_jose_src</value>
+      </item>
+      <item>
+        <label>San Juan de Opoa</label>
+        <value>san_jua-_opoa_src</value>
+      </item>
+      <item>
+        <label>San Nicolás</label>
+        <value>san:nicolas_src</value>
+      </item>
+      <item>
+        <label>San Pedro</label>
+        <value>san_pedro_src</value>
+      </item>
+      <item>
+        <label>Santa Rita</label>
+        <value>santa_rita_src</value>
+      </item>
+      <item>
+        <label>Trinidad de Copan</label>
+        <value>trinidad_copan_src</value>
+      </item>
+      <item>
+        <label>Veracruz</label>
+        <value>trinidad_copan_src_1</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Municipios_del_depar_umentos_del_proyecto">
+      <label>Municipios del departamento de Ocotepeque que no aparecen en documentos del proyecto</label>
+      <item>
+        <label>Ocotepeque</label>
+        <value>Ocotepeque</value>
+      </item>
+      <item>
+        <label>Belén Gualcho</label>
+        <value>belen_g_o</value>
+      </item>
+      <item>
+        <label>Concepción</label>
+        <value>concepcio_o</value>
+      </item>
+      <item>
+        <label>Dolores Merendon</label>
+        <value>dolores_m_o</value>
+      </item>
+      <item>
+        <label>Fraternidad</label>
+        <value>fraternidade_o</value>
+      </item>
+      <item>
+        <label>La Encarnación</label>
+        <value>encarnacion_o</value>
+      </item>
+      <item>
+        <label>La Labor</label>
+        <value>labor</value>
+      </item>
+      <item>
+        <label>Lucerna</label>
+        <value>luverna_o</value>
+      </item>
+      <item>
+        <label>Mercedes</label>
+        <value>mercedes_o</value>
+      </item>
+      <item>
+        <label>San Fernando</label>
+        <value>san_fernado_o</value>
+      </item>
+      <item>
+        <label>San Francisco del Valle</label>
+        <value>san_frencisco_v_o</value>
+      </item>
+      <item>
+        <label>San Jorge</label>
+        <value>san_jorge_o</value>
+      </item>
+      <item>
+        <label>San Marcos</label>
+        <value>san_marco_o</value>
+      </item>
+      <item>
+        <label>Santa Fe</label>
+        <value>santa_fe_o</value>
+      </item>
+      <item>
+        <label>Sensenti</label>
+        <value>sensenti_o</value>
+      </item>
+      <item>
+        <label>Sinuapa</label>
+        <value>sinuapa_o</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Parroquias_di_cesis_de_la_Ceib">
+      <label>Parroquias diócesis de la Ceiba</label>
+      <item>
+        <label>Nuestra Señora de la Asunción </label>
+        <value>nuestra_se_ora_de_la_asunci_n</value>
+      </item>
+      <item>
+        <label>Nuestra Señora del Pilar</label>
+        <value>señora_pilar</value>
+      </item>
+      <item>
+        <label>Otras parroquias de diócesis dela Ceiba</label>
+        <value>otra_parroquia_ceiba</value>
+      </item>
+    </select1>
+    <input ref="/data/Parroquias_de_la_di_ista_de_preselecci_n">
+      <label>Parroquias de la diócesis de la Ceiba que no están en lista de preselección</label>
+    </input>
+    <select1 ref="/data/Parroquia_de_la_di_cesis_de_Sa">
+      <label>Parroquia de la diócesis de Santa Rosa de Copan</label>
+      <item>
+        <label>San Nicolas </label>
+        <value>nuestra_se_ora_de_la_asunci_n</value>
+      </item>
+      <item>
+        <label>Santísima Trinidad </label>
+        <value>santisma_trinidad</value>
+      </item>
+      <item>
+        <label>Otras parroquias de la diócesis de Santa Rosa de Copan</label>
+        <value>Otras_parroquias_SRC</value>
+      </item>
+    </select1>
+    <input ref="/data/Parroquias_de_la_di_ista_de_preselecci_n_001">
+      <label>Parroquias de la diócesis de SRC que no están en lista de preselección</label>
+    </input>
+    <select1 ref="/data/Parroquia_de_la_di_cesis_de_Co">
+      <label>Parroquia de la diócesis de Comayagua</label>
+      <item>
+        <label>San  Jerónimo</label>
+        <value>nuestra_se_ora_de_la_asunci_n</value>
+      </item>
+      <item>
+        <label>Nuestra Señora del Rosario </label>
+        <value>nustra_señora_rosario</value>
+      </item>
+      <item>
+        <label>Otras parroquias de la diócesis de Comayagua</label>
+        <value>otras_parroquias_comayagua</value>
+      </item>
+    </select1>
+    <input ref="/data/Parroquias_de_la_di_ista_de_preselecci_n_002">
+      <label>Parroquias de la diócesis de Comayagua que no están en la lista de preselección</label>
+    </input>
+    <input ref="/data/Comunidad">
+      <label>Comunidad</label>
+    </input>
+    <input ref="/data/Nombre_del_encuestado">
+      <label>Nombre del encuestado</label>
+    </input>
+    <input ref="/data/Geo_localizaci_n">
+      <label>Geo-localización</label>
+    </input>
+    <select1 ref="/data/Sexo_del_encuestado">
+      <label>Sexo del encuestado</label>
+      <item>
+        <label>M</label>
+        <value>m</value>
+      </item>
+      <item>
+        <label>F</label>
+        <value>f</value>
+      </item>
+    </select1>
+    <input ref="/data/Numero_de_DNI_del_encuestado">
+      <label>Numero de DNI del encuestado</label>
+      <hint>El numero de identificación</hint>
+    </input>
+    <upload mediatype="image/*" ref="/data/Foto_del_Encuestado">
+      <label>Foto del Encuestado</label>
+    </upload>
+    <input ref="/data/Celular">
+      <label>Celular</label>
+    </input>
+    <input ref="/data/II_Diagnostico">
+      <label>II Diagnostico</label>
+    </input>
+    <group appearance="w2" ref="/data/group_xg2js72_header">
+      <input appearance="w1" ref="/data/group_xg2js72_header/group_xg2js72_header_note">
+        <label>** Disponibilidad de servicios públicos**</label>
+      </input>
+      <input appearance="w1" ref="/data/group_xg2js72_header/group_xg2js72_header_columna">
+        <label>**Calificación**</label>
+      </input>
+    </group>
+    <group appearance="w2" ref="/data/group_xg2js72_sa_1lud_1">
+      <input appearance="w1" ref="/data/group_xg2js72_sa_1lud_1/group_xg2js72_sa_1lud_1_note">
+        <label>##### Salud</label>
+      </input>
+      <select1 appearance="w1 horizontal-compact" ref="/data/group_xg2js72_sa_1lud_1/group_xg2js72_sa_1lud_1_columna">
+        <label>&lt;span style="display:none"&gt;sa_1lud_1-Calificación&lt;/span&gt;</label>
+        <item>
+          <label>No hay</label>
+          <value>nohay</value>
+        </item>
+        <item>
+          <label>bueno</label>
+          <value>bueno</value>
+        </item>
+        <item>
+          <label>malo</label>
+          <value>malo</value>
+        </item>
+        <item>
+          <label>regular</label>
+          <value>regular</value>
+        </item>
+        <item>
+          <label>excelente</label>
+          <value>exelente</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="w2" ref="/data/group_xg2js72_agua_1">
+      <input appearance="w1" ref="/data/group_xg2js72_agua_1/group_xg2js72_agua_1_note">
+        <label>##### Agua por tubería</label>
+      </input>
+      <select1 appearance="w1 horizontal-compact" ref="/data/group_xg2js72_agua_1/group_xg2js72_agua_1_columna">
+        <label>&lt;span style="display:none"&gt;agua_1-Calificación&lt;/span&gt;</label>
+        <item>
+          <label>No hay</label>
+          <value>nohay</value>
+        </item>
+        <item>
+          <label>bueno</label>
+          <value>bueno</value>
+        </item>
+        <item>
+          <label>malo</label>
+          <value>malo</value>
+        </item>
+        <item>
+          <label>regular</label>
+          <value>regular</value>
+        </item>
+        <item>
+          <label>excelente</label>
+          <value>exelente</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="w2" ref="/data/group_xg2js72_carreteras_1">
+      <input appearance="w1" ref="/data/group_xg2js72_carreteras_1/group_xg2js72_carreteras_1_note">
+        <label>##### Carreteras o acceso a la comunidad</label>
+      </input>
+      <select1 appearance="w1 horizontal-compact" ref="/data/group_xg2js72_carreteras_1/group_xg2js72_carreteras_1_columna">
+        <label>&lt;span style="display:none"&gt;carreteras_1-Calificación&lt;/span&gt;</label>
+        <item>
+          <label>No hay</label>
+          <value>nohay</value>
+        </item>
+        <item>
+          <label>bueno</label>
+          <value>bueno</value>
+        </item>
+        <item>
+          <label>malo</label>
+          <value>malo</value>
+        </item>
+        <item>
+          <label>regular</label>
+          <value>regular</value>
+        </item>
+        <item>
+          <label>excelente</label>
+          <value>exelente</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="w2" ref="/data/group_xg2js72_energ_1">
+      <input appearance="w1" ref="/data/group_xg2js72_energ_1/group_xg2js72_energ_1_note">
+        <label>##### Energia eléctrica</label>
+      </input>
+      <select1 appearance="w1 horizontal-compact" ref="/data/group_xg2js72_energ_1/group_xg2js72_energ_1_columna">
+        <label>&lt;span style="display:none"&gt;energ_1-Calificación&lt;/span&gt;</label>
+        <item>
+          <label>No hay</label>
+          <value>nohay</value>
+        </item>
+        <item>
+          <label>bueno</label>
+          <value>bueno</value>
+        </item>
+        <item>
+          <label>malo</label>
+          <value>malo</value>
+        </item>
+        <item>
+          <label>regular</label>
+          <value>regular</value>
+        </item>
+        <item>
+          <label>excelente</label>
+          <value>exelente</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="w2" ref="/data/group_xg2js72_educacion_1">
+      <input appearance="w1" ref="/data/group_xg2js72_educacion_1/group_xg2js72_educacion_1_note">
+        <label>##### Educación</label>
+      </input>
+      <select1 appearance="w1 horizontal-compact" ref="/data/group_xg2js72_educacion_1/group_xg2js72_educacion_1_columna">
+        <label>&lt;span style="display:none"&gt;educacion_1-Calificación&lt;/span&gt;</label>
+        <item>
+          <label>No hay</label>
+          <value>nohay</value>
+        </item>
+        <item>
+          <label>bueno</label>
+          <value>bueno</value>
+        </item>
+        <item>
+          <label>malo</label>
+          <value>malo</value>
+        </item>
+        <item>
+          <label>regular</label>
+          <value>regular</value>
+        </item>
+        <item>
+          <label>excelente</label>
+          <value>exelente</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad">
+      <input ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/Cuales_son_los_princ_emas_en_la_comunidad">
+        <label>Cuales son los principales problemas en la comunidad</label>
+      </input>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/pobreza">
+        <label>Pobreza</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/delicuencia">
+        <label>Delincuencia Común</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/atentados_vida">
+        <label>Atentados a la vida</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/extorsion">
+        <label>Extorsión</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/Enfermedades">
+        <label>Enfermedades</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/violencia_familiar">
+        <label>Violencia familiar</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/vagancia">
+        <label>Vagancia/vicios</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/desempleo">
+        <label>Desempleo</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/emigraci_n">
+        <label>La gente abandona el lugar</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Cuales_son_los_princ_emas_en_la_comunidad/otros">
+        <label>Otros</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/Solo_para_especifica_emas_en_la_comunidad">
+      <label>Solo para especificar otros problemas en la comunidad</label>
+      <hint>Se llena solo cuando hay selección de la pregunta anterior Otros problemas</hint>
+    </input>
+    <group appearance="field-list" ref="/data/Eventos_que_provocan_dad_en_la_comunidad">
+      <input ref="/data/Eventos_que_provocan_dad_en_la_comunidad/Eventos_que_provocan_dad_en_la_comunidad">
+        <label>Eventos que provocan emergencia con frecuencia y severidad en la comunidad</label>
+      </input>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_cultivos">
+        <label>Inundaciones en predios productivos</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/inundaciones_casas">
+        <label>Inundaciones de casas</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/delizamiento_predios">
+        <label>Deslizamiento en predios productivos</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/deslizamiento_casa">
+        <label>Deslizamiento en arias pobladas</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/aislamiento_calles">
+        <label>Aislamiento por daños en accesos a comunidad</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/sequias">
+        <label>Sequias que afectan arias productivas</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/agua_cpnsumo">
+        <label>Reducción del agua para consumo</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/enfermedades_humanos">
+        <label>Enfermedades en humanos</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/enferemedades_cultivos">
+        <label>Plagas y enfermedades en cultivos y animales</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/incendios">
+        <label>Incendios forestales</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/escases_alimetos">
+        <label>Escases temporales de alimentos</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Eventos_que_provocan_dad_en_la_comunidad/otros_001">
+        <label>Otros</label>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>6</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>8</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>9</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>10</label>
+          <value>10</value>
+        </item>
+        <item>
+          <label>11</label>
+          <value>11</value>
+        </item>
+        <item>
+          <label>12</label>
+          <value>12</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/Solo_para_especifica_tos_en_la_comunidad">
+      <label>Solo para especificar otros eventos en la comunidad</label>
+      <hint>Se llena solo cuando hay selección de la pregunta anterior Otros problemas</hint>
+    </input>
+    <input ref="/data/III_Lineal_Base">
+      <label>III Lineal Base</label>
+    </input>
+    <select1 ref="/data/El_encuestado_es_jefe_de_famil">
+      <label>El encuestado es jefe de familia</label>
+      <item>
+        <label>Si</label>
+        <value>si</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/De_ser_seleccionado_su_partic">
+      <label>De ser seleccionado, su participación en el proyecto será</label>
+      <item>
+        <label>En representación de la familia en el proceso del proyecto</label>
+        <value>en_representaci_n_de_la_famili</value>
+      </item>
+      <item>
+        <label>Como miembros de familia y otro represente la familia</label>
+        <value>como_miembros_de_familia_y_otr</value>
+      </item>
+    </select1>
+    <input ref="/data/Otros_representa_la_familia_n">
+      <label>Otro representa la familia, nombre del represéntate de la familia</label>
+    </input>
+    <input ref="/data/Otros_representa_la_familia_Numero_DNI">
+      <label>Otros representa la familia, Numero DNI</label>
+    </input>
+    <select1 ref="/data/Estado_Civil_representante_de_la_familia">
+      <label>Estado Civil representante de la familia</label>
+      <item>
+        <label>Soltero(a)</label>
+        <value>soltero_a</value>
+      </item>
+      <item>
+        <label>Casado(a)</label>
+        <value>casado_a</value>
+      </item>
+      <item>
+        <label>Unión Libre</label>
+        <value>uni_n_libre</value>
+      </item>
+      <item>
+        <label>Viudo </label>
+        <value>viudo</value>
+      </item>
+    </select1>
+    <select1 ref="/data/El_miembro_sabe_leer_y_escribi">
+      <label>El representante de la familia sabe leer y escribir</label>
+      <item>
+        <label>Si</label>
+        <value>si</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Escolaridad_miembros">
+      <label>Cuantos años estudio del representante de la familia</label>
+      <hint>Del miembro de la organización</hint>
+      <item>
+        <label>1</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>2</label>
+        <value>2</value>
+      </item>
+      <item>
+        <label>3</label>
+        <value>3</value>
+      </item>
+      <item>
+        <label>4</label>
+        <value>4</value>
+      </item>
+      <item>
+        <label>5</label>
+        <value>5</value>
+      </item>
+      <item>
+        <label>6</label>
+        <value>6</value>
+      </item>
+      <item>
+        <label>7</label>
+        <value>7</value>
+      </item>
+      <item>
+        <label>8</label>
+        <value>8</value>
+      </item>
+      <item>
+        <label>9</label>
+        <value>9</value>
+      </item>
+      <item>
+        <label>10</label>
+        <value>10</value>
+      </item>
+      <item>
+        <label>11</label>
+        <value>11</value>
+      </item>
+      <item>
+        <label>12</label>
+        <value>12</value>
+      </item>
+      <item>
+        <label>&gt;12</label>
+        <value>_12</value>
+      </item>
+    </select1>
+    <group appearance="w3" ref="/data/group_mf3ow18_header">
+      <input appearance="w1" ref="/data/group_mf3ow18_header/group_mf3ow18_header_note">
+        <label>**Cuantas personas por sexo y edades, que actualmente viven en la casa**</label>
+      </input>
+      <input appearance="w1" ref="/data/group_mf3ow18_header/group_mf3ow18_header_mujer">
+        <label>**Mujer**</label>
+      </input>
+      <input appearance="w1" ref="/data/group_mf3ow18_header/group_mf3ow18_header_hombre_1">
+        <label>**Hombre**</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_menores_6_meses_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_note">
+        <label>##### Menores de 6 meses</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_mujer">
+        <label>&lt;span style="display:none"&gt;menores_6_meses_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_menores_6_meses_1/group_mf3ow18_menores_6_meses_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;menores_6_meses_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_7a23mese_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_note">
+        <label>##### De 7 a 23 meses</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_mujer">
+        <label>&lt;span style="display:none"&gt;7a23mese_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_7a23mese_1/group_mf3ow18_7a23mese_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;7a23mese_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_2_a5_as_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_note">
+        <label>##### 2 a 5 años</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_mujer">
+        <label>&lt;span style="display:none"&gt;2_a5_as_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_2_a5_as_1/group_mf3ow18_2_a5_as_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;2_a5_as_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_6a_17_as_1_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_note">
+        <label>##### 6 a 17 años</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_mujer">
+        <label>&lt;span style="display:none"&gt;6a_17_as_1_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_6a_17_as_1_1/group_mf3ow18_6a_17_as_1_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;6a_17_as_1_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_18a_60_as_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_note">
+        <label>##### 18 a 60 años</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_mujer">
+        <label>&lt;span style="display:none"&gt;18a_60_as_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_18a_60_as_1/group_mf3ow18_18a_60_as_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;18a_60_as_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <group appearance="w3" ref="/data/group_mf3ow18_mayores60_as_1_1">
+      <input appearance="w1" ref="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_note">
+        <label>##### Mayores de 60 años</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_mujer">
+        <label>&lt;span style="display:none"&gt;mayores60_as_1_1-Mujer&lt;/span&gt;</label>
+      </input>
+      <input appearance="w1 no-label" ref="/data/group_mf3ow18_mayores60_as_1_1/group_mf3ow18_mayores60_as_1_1_hombre_1">
+        <label>&lt;span style="display:none"&gt;mayores60_as_1_1-Hombre&lt;/span&gt;</label>
+      </input>
+    </group>
+    <select1 ref="/data/Capacidades_especiales">
+      <label>Hay en la familia, miembros con capacidades especiales (física o mental)</label>
+      <hint>Que viven o se cuidan en la casa</hint>
+      <item>
+        <label>Si</label>
+        <value>si</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/data/Detalle_Cuantos_la_cial_sexo_y_la_edad">
+      <label>Detalle: Cuantos;la capacidad especial; sexo y la edad</label>
+    </input>
+    <input ref="/data/_1_Prop_sitos_y_resultados">
+      <label>1- Propósitos y resultados</label>
+    </input>
+    <group appearance="field-list" ref="/data/Los_ingresos_de_la_f_una_o_varias_fuentes">
+      <input ref="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/Los_ingresos_de_la_f_una_o_varias_fuentes">
+        <label>Los ingresos de la familia provenían de una o varias fuentes</label>
+      </input>
+      <select1 appearance="minimal" ref="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_1_fuente_ingresos">
+        <label>Fuente principal de Ingresos familiares</label>
+        <item>
+          <label>Cultivo de Café</label>
+          <value>cafe</value>
+        </item>
+        <item>
+          <label>Cultivo de frutales</label>
+          <value>frutales</value>
+        </item>
+        <item>
+          <label>Cultivos de granos básicos</label>
+          <value>gb</value>
+        </item>
+        <item>
+          <label>Cultivos de Hortalizas</label>
+          <value>hortalizas</value>
+        </item>
+        <item>
+          <label>Ganado mayor</label>
+          <value>vacuno</value>
+        </item>
+        <item>
+          <label>Ganado menor</label>
+          <value>varias_especies_animal</value>
+        </item>
+        <item>
+          <label>Pesca</label>
+          <value>pesca</value>
+        </item>
+        <item>
+          <label>Jornales agropecuario</label>
+          <value>m_o_pecuaria</value>
+        </item>
+        <item>
+          <label>Jornaleo no agropecuario </label>
+          <value>m_o_no_agroprcuario</value>
+        </item>
+        <item>
+          <label>Venta de productos elaborados en la familias</label>
+          <value>producto_familiar</value>
+        </item>
+        <item>
+          <label>Por oficio</label>
+          <value>oficio</value>
+        </item>
+        <item>
+          <label>Comerciante</label>
+          <value>comerciante</value>
+        </item>
+        <item>
+          <label>Servicios domésticos</label>
+          <value>domesticos_mo</value>
+        </item>
+        <item>
+          <label>Aprovechamiento forestal</label>
+          <value>forestal</value>
+        </item>
+        <item>
+          <label>Remesas</label>
+          <value>remesas</value>
+        </item>
+        <item>
+          <label>Bonos u otras donaciones</label>
+          <value>bonos</value>
+        </item>
+        <item>
+          <label>Empleado</label>
+          <value>empleado</value>
+        </item>
+        <item>
+          <label>Otros</label>
+          <value>otros</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_2_fuente_ingresos">
+        <label>2da fuente de ingresos familiares</label>
+        <item>
+          <label>Cultivo de Café</label>
+          <value>cafe</value>
+        </item>
+        <item>
+          <label>Cultivo de frutales</label>
+          <value>frutales</value>
+        </item>
+        <item>
+          <label>Cultivos de granos básicos</label>
+          <value>gb</value>
+        </item>
+        <item>
+          <label>Cultivos de Hortalizas</label>
+          <value>hortalizas</value>
+        </item>
+        <item>
+          <label>Ganado mayor</label>
+          <value>vacuno</value>
+        </item>
+        <item>
+          <label>Ganado menor</label>
+          <value>varias_especies_animal</value>
+        </item>
+        <item>
+          <label>Pesca</label>
+          <value>pesca</value>
+        </item>
+        <item>
+          <label>Jornales agropecuario</label>
+          <value>m_o_pecuaria</value>
+        </item>
+        <item>
+          <label>Jornaleo no agropecuario </label>
+          <value>m_o_no_agroprcuario</value>
+        </item>
+        <item>
+          <label>Venta de productos elaborados en la familias</label>
+          <value>producto_familiar</value>
+        </item>
+        <item>
+          <label>Por oficio</label>
+          <value>oficio</value>
+        </item>
+        <item>
+          <label>Comerciante</label>
+          <value>comerciante</value>
+        </item>
+        <item>
+          <label>Servicios domésticos</label>
+          <value>domesticos_mo</value>
+        </item>
+        <item>
+          <label>Aprovechamiento forestal</label>
+          <value>forestal</value>
+        </item>
+        <item>
+          <label>Remesas</label>
+          <value>remesas</value>
+        </item>
+        <item>
+          <label>Bonos u otras donaciones</label>
+          <value>bonos</value>
+        </item>
+        <item>
+          <label>Empleado</label>
+          <value>empleado</value>
+        </item>
+        <item>
+          <label>Otros</label>
+          <value>otros</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/Los_ingresos_de_la_f_una_o_varias_fuentes/_3_fuente_ingresos">
+        <label>3ra fuentes de ingresos familiares</label>
+        <item>
+          <label>Cultivo de Café</label>
+          <value>cafe</value>
+        </item>
+        <item>
+          <label>Cultivo de frutales</label>
+          <value>frutales</value>
+        </item>
+        <item>
+          <label>Cultivos de granos básicos</label>
+          <value>gb</value>
+        </item>
+        <item>
+          <label>Cultivos de Hortalizas</label>
+          <value>hortalizas</value>
+        </item>
+        <item>
+          <label>Ganado mayor</label>
+          <value>vacuno</value>
+        </item>
+        <item>
+          <label>Ganado menor</label>
+          <value>varias_especies_animal</value>
+        </item>
+        <item>
+          <label>Pesca</label>
+          <value>pesca</value>
+        </item>
+        <item>
+          <label>Jornales agropecuario</label>
+          <value>m_o_pecuaria</value>
+        </item>
+        <item>
+          <label>Jornaleo no agropecuario </label>
+          <value>m_o_no_agroprcuario</value>
+        </item>
+        <item>
+          <label>Venta de productos elaborados en la familias</label>
+          <value>producto_familiar</value>
+        </item>
+        <item>
+          <label>Por oficio</label>
+          <value>oficio</value>
+        </item>
+        <item>
+          <label>Comerciante</label>
+          <value>comerciante</value>
+        </item>
+        <item>
+          <label>Servicios domésticos</label>
+          <value>domesticos_mo</value>
+        </item>
+        <item>
+          <label>Aprovechamiento forestal</label>
+          <value>forestal</value>
+        </item>
+        <item>
+          <label>Remesas</label>
+          <value>remesas</value>
+        </item>
+        <item>
+          <label>Bonos u otras donaciones</label>
+          <value>bonos</value>
+        </item>
+        <item>
+          <label>Empleado</label>
+          <value>empleado</value>
+        </item>
+        <item>
+          <label>Otros</label>
+          <value>otros</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/si_se_seleccion_otros_detallar_cuales">
+      <label>si se seleccionó otros, detallar cuales:</label>
+    </input>
+    <select1 ref="/data/Ingresos_afectados">
+      <label>Las fuentes principales de ingresos de su hogar fueron afectadas</label>
+      <item>
+        <label>Si</label>
+        <value>si</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <select1 ref="/data/Grado_afectacion_ingresos">
+      <label>Grado de afectación fuentes de ingresos</label>
+      <item>
+        <label>Severamente afectada (91 a 100%)</label>
+        <value>severamente_afectada__91_a_100</value>
+      </item>
+      <item>
+        <label>Muy afectada (81 a 90%)</label>
+        <value>muy_afectada__81_a_90</value>
+      </item>
+      <item>
+        <label>Parcialmente afectada (60 a 80%)</label>
+        <value>parcialmente_afectado</value>
+      </item>
+      <item>
+        <label>Afectada (40 a 59%)</label>
+        <value>afectada__40_a_59</value>
+      </item>
+      <item>
+        <label>Poco afectada (20 a 39%)</label>
+        <value>poco_afectada__20_a_39</value>
+      </item>
+      <item>
+        <label>Algo afectada (5 a 19%)</label>
+        <value>poco_afectado</value>
+      </item>
+      <item>
+        <label>No sabe</label>
+        <value>no_sabe</value>
+      </item>
+    </select1>
+    <select ref="/data/Descripcion_afectacion_total">
+      <label>Descripción cuando es severamente afectada</label>
+      <item>
+        <label>Reducción de ingresos</label>
+        <value>reducci_n_de_ingresos</value>
+      </item>
+      <item>
+        <label>Perdida del trabajo</label>
+        <value>perdida_del_trabajo</value>
+      </item>
+      <item>
+        <label>Perdida de cosecha</label>
+        <value>perdida_de_cosecha</value>
+      </item>
+      <item>
+        <label>Incremento de gastos en alimentos</label>
+        <value>incremento_de_gastos_en_alimentos</value>
+      </item>
+      <item>
+        <label>Reducción de accesos a alimentos</label>
+        <value>reducci_n_de_accesos_a_alimentos</value>
+      </item>
+      <item>
+        <label>Reducción de agua para consumos</label>
+        <value>reducci_n_de_agua_para_consumos</value>
+      </item>
+      <item>
+        <label>Reducción de agua para riego u otros propósitos</label>
+        <value>reducci_n_de_agua_para_riego_u_otros_pro</value>
+      </item>
+      <item>
+        <label>Reducción de agua para saneamiento y eliminación de excretas</label>
+        <value>reducci_n_de_agua_para_saneamiento_y_eli</value>
+      </item>
+      <item>
+        <label>Aparición de enfermedades en la familia</label>
+        <value>aparici_n_de_enfermedades_en_la_familia</value>
+      </item>
+      <item>
+        <label>Aparición de enfermedades en animales</label>
+        <value>aparici_n_de_enfermedades_en_animales</value>
+      </item>
+      <item>
+        <label>Otras</label>
+        <value>otras</value>
+      </item>
+    </select>
+    <select1 ref="/data/Ha_participado_en_alguna_organ">
+      <label>Ha participado en alguna organización comunitarias</label>
+      <item>
+        <label>Si</label>
+        <value>Organizacion_si</value>
+      </item>
+      <item>
+        <label>Ahora no</label>
+        <value>organizacion_ahora_no</value>
+      </item>
+      <item>
+        <label>Nunca</label>
+        <value>organizacion_nunca</value>
+      </item>
+    </select1>
+    <select ref="/data/Si_participa_en_algu_izaciones_siguientes">
+      <label>Si participa en alguna de las organizaciones siguientes</label>
+      <item>
+        <label>Patronatos</label>
+        <value>patronatos</value>
+      </item>
+      <item>
+        <label>Juntas de agua</label>
+        <value>juntas_de_agua</value>
+      </item>
+      <item>
+        <label>Sociedades de padres de familia</label>
+        <value>sociedades_de_padres_de_familia</value>
+      </item>
+      <item>
+        <label>Comités de diferente índole para acciones  comunícales </label>
+        <value>comit_s_de_diferente__ndole_para_accione</value>
+      </item>
+      <item>
+        <label>Asociaciones de producción </label>
+        <value>asociaciones_de_producci_n</value>
+      </item>
+      <item>
+        <label>Grupos productivos</label>
+        <value>grupos_productivos</value>
+      </item>
+      <item>
+        <label>Cajas Rurales</label>
+        <value>cajas_rurales</value>
+      </item>
+      <item>
+        <label>Empresas Asociativas campesinas</label>
+        <value>empresas_asociativas_campesinas</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+    </select>
+    <select ref="/data/Ahora_no_participa_izaciones_siguientes">
+      <label>Ahora no participa en alguna de las organizaciones siguientes</label>
+      <item>
+        <label>Patronatos</label>
+        <value>patronatos</value>
+      </item>
+      <item>
+        <label>Juntas de agua</label>
+        <value>juntas_de_agua</value>
+      </item>
+      <item>
+        <label>Sociedades de padres de familia</label>
+        <value>sociedades_de_padres_de_familia</value>
+      </item>
+      <item>
+        <label>Comités de diferente índole para acciones  comunícales </label>
+        <value>comit_s_de_diferente__ndole_para_accione</value>
+      </item>
+      <item>
+        <label>Asociaciones de producción </label>
+        <value>asociaciones_de_producci_n</value>
+      </item>
+      <item>
+        <label>Grupos productivos</label>
+        <value>grupos_productivos</value>
+      </item>
+      <item>
+        <label>Cajas Rurales</label>
+        <value>cajas_rurales</value>
+      </item>
+      <item>
+        <label>Empresas Asociativas campesinas</label>
+        <value>empresas_asociativas_campesinas</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+    </select>
+    <select1 ref="/data/Como_califica_su_exp_n_las_organizaciones">
+      <label>Como califica su experiencia en las organizaciones</label>
+      <item>
+        <label>Excelente</label>
+        <value>excelente</value>
+      </item>
+      <item>
+        <label>Buena</label>
+        <value>buena</value>
+      </item>
+      <item>
+        <label>Regular</label>
+        <value>regular</value>
+      </item>
+      <item>
+        <label>Mala</label>
+        <value>mala</value>
+      </item>
+    </select1>
+    <input ref="/data/Usted_recomienda_alg_comunidad_o_cercana">
+      <label>Usted recomienda alguna Organización en la comunidad o cercana</label>
+    </input>
+    <input ref="/data/_2_Prop_sitos_y_resultados">
+      <label>2- Propósitos y resultados</label>
+    </input>
+    <select ref="/data/Fuentes_agua_consumo">
+      <label>Cuales son sus 2 principales fuente de agua para consumo humano</label>
+      <item>
+        <label>Agua entubada publica en la casa</label>
+        <value>agua_entubada_publica_en_la_ca</value>
+      </item>
+      <item>
+        <label>Agua entubada privada</label>
+        <value>agua_entubada_privada</value>
+      </item>
+      <item>
+        <label>Llave publica o comunitaria</label>
+        <value>llave_publica_o_comunitaria</value>
+      </item>
+      <item>
+        <label>Pozo con bomba propio</label>
+        <value>pozo_con_bomba_propio</value>
+      </item>
+      <item>
+        <label>Pozo con bomba publico</label>
+        <value>pozo_con_bomba_publico</value>
+      </item>
+      <item>
+        <label>Pozo malacate propio</label>
+        <value>pozo_malacate_propio</value>
+      </item>
+      <item>
+        <label>Pozo malacate publico</label>
+        <value>pozo_malacate_publico</value>
+      </item>
+      <item>
+        <label>Pozo superficial comunal</label>
+        <value>pozo_superficial_comunal</value>
+      </item>
+      <item>
+        <label>Pozo superficial propio</label>
+        <value>pozo_superficial_propio</value>
+      </item>
+      <item>
+        <label>Agua embotellada</label>
+        <value>agua_embotellada</value>
+      </item>
+      <item>
+        <label>Carro Cisterna </label>
+        <value>carro_cisterna</value>
+      </item>
+      <item>
+        <label>Agua lluvia</label>
+        <value>agua_lluvia</value>
+      </item>
+      <item>
+        <label>Rio, quebrada, crique etc.</label>
+        <value>rio__quebrada__crique_etc</value>
+      </item>
+      <item>
+        <label>Otros, especifique</label>
+        <value>otros__especifique</value>
+      </item>
+    </select>
+    <input ref="/data/Otras_fuentes_de_agua">
+      <label>Otras fuentes de agua</label>
+      <hint>Especifique aclarando esta fuente de agua</hint>
+    </input>
+    <select ref="/data/almacena_agua_hogar">
+      <label>En que almacena el agua para consumo humano</label>
+      <hint>Puede seleccionar varios</hint>
+      <item>
+        <label>Pila</label>
+        <value>pila</value>
+      </item>
+      <item>
+        <label>Tanque (cemento,plástico)</label>
+        <value>tanque__cemento_pl_stico</value>
+      </item>
+      <item>
+        <label>Barril</label>
+        <value>barril</value>
+      </item>
+      <item>
+        <label>Baldes o recipientes pequeños</label>
+        <value>baldes_o_recipientes_peque_os</value>
+      </item>
+      <item>
+        <label>Cosechadora de agua</label>
+        <value>cosechadora_de_agua</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+      <item>
+        <label>Ninguno</label>
+        <value>ninguno</value>
+      </item>
+    </select>
+    <input ref="/data/Otras_almacenamiento_agua">
+      <label>Otras formas de almacenamiento de agua para consumo humano</label>
+      <hint>Especifique y aclarando la forma en que almacena agua</hint>
+    </input>
+    <select ref="/data/Distribucion_vivienda">
+      <label>La vivienda cuenta con los siguientes espacios</label>
+      <hint ref="jr:itext('/data/Distribucion_vivienda:hint')"/>
+      <item>
+        <label>Cocina</label>
+        <value>cocina</value>
+      </item>
+      <item>
+        <label>Dormitorios</label>
+        <value>dormitorios</value>
+      </item>
+      <item>
+        <label>Comedor </label>
+        <value>comedor</value>
+      </item>
+      <item>
+        <label>Comedor y sala</label>
+        <value>comedor_y_sala</value>
+      </item>
+      <item>
+        <label>Sala</label>
+        <value>sala</value>
+      </item>
+      <item>
+        <label>Corredor y comedor</label>
+        <value>corredor_y_comedor</value>
+      </item>
+      <item>
+        <label>Modulo sanitario</label>
+        <value>modulo_sanitario</value>
+      </item>
+      <item>
+        <label>Bodega</label>
+        <value>bodega</value>
+      </item>
+    </select>
+    <select ref="/data/techo_materiales">
+      <label>El techo de la casa es de :</label>
+      <item>
+        <label>Teja</label>
+        <value>teja</value>
+      </item>
+      <item>
+        <label>Manaca, palmas u otro material vegetal</label>
+        <value>manaca__palmas_u_otro_material_vegetal</value>
+      </item>
+      <item>
+        <label>Asbesto</label>
+        <value>asbesto</value>
+      </item>
+      <item>
+        <label>Zinc</label>
+        <value>zinc</value>
+      </item>
+      <item>
+        <label>Aluzinc</label>
+        <value>aluzinc</value>
+      </item>
+      <item>
+        <label>Materiales de re_uso</label>
+        <value>materiales_de_re_uso</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+    </select>
+    <select ref="/data/paredes_materiales">
+      <label>Las paredes de la casa son de:</label>
+      <hint>pueden ser varios materiales</hint>
+      <item>
+        <label>Adobe</label>
+        <value>adobe</value>
+      </item>
+      <item>
+        <label>Bahareque</label>
+        <value>bahareque</value>
+      </item>
+      <item>
+        <label>Madera tabla</label>
+        <value>madera_tabla</value>
+      </item>
+      <item>
+        <label>Madera rolliza</label>
+        <value>madera_rolliza</value>
+      </item>
+      <item>
+        <label>Manaca, palmas u otro material vegetal</label>
+        <value>manaca__palmas_u_otro_material_vegetal</value>
+      </item>
+      <item>
+        <label>Bloque</label>
+        <value>bloque</value>
+      </item>
+      <item>
+        <label>Ladrillo</label>
+        <value>ladrillo</value>
+      </item>
+      <item>
+        <label>Laminas</label>
+        <value>laminas</value>
+      </item>
+      <item>
+        <label>Materiales de re_uso</label>
+        <value>materiales_de_re_uso</value>
+      </item>
+    </select>
+    <select ref="/data/piso_materiales">
+      <label>El piso de la casa es de:</label>
+      <hint>Pueden ser varios materiales</hint>
+      <item>
+        <label>Tierra</label>
+        <value>tierra</value>
+      </item>
+      <item>
+        <label>Madera</label>
+        <value>madera</value>
+      </item>
+      <item>
+        <label>Cemento</label>
+        <value>cemento</value>
+      </item>
+      <item>
+        <label>Mosaico de cemento</label>
+        <value>mosaico_de_cemento</value>
+      </item>
+      <item>
+        <label>Mosaico de barro</label>
+        <value>mosaico_de_barro</value>
+      </item>
+      <item>
+        <label>Cerámica</label>
+        <value>cer_mica</value>
+      </item>
+      <item>
+        <label>Porcelanato</label>
+        <value>porcelanato</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+    </select>
+    <select ref="/data/Detalle_del_modulo_sanitario">
+      <label>Detalle del modulo sanitario</label>
+      <hint ref="jr:itext('/data/Detalle_del_modulo_sanitario:hint')"/>
+      <item>
+        <label>El modulo cuenta baño,sanitario, lavandero ,pila y techado</label>
+        <value>el_modulo_cuenta_ba_o_sanitario__lavande</value>
+      </item>
+      <item>
+        <label>El modulo cuenta baño,sanitario, lavandero ,pila sin techo</label>
+        <value>el_modulo_cuenta_ba_o_sanitario__lavande_1</value>
+      </item>
+      <item>
+        <label>El modulo cuenta con lavamanos </label>
+        <value>el_modulo_cuenta_con_lavamanos</value>
+      </item>
+      <item>
+        <label>El sanitario esta separado</label>
+        <value>el_sanitario_esta_separado</value>
+      </item>
+      <item>
+        <label>Sanitario descarga con tanque</label>
+        <value>sanitario_descarga_con_tanque</value>
+      </item>
+      <item>
+        <label>Sanitario de lavado </label>
+        <value>sanitario_de_lavado</value>
+      </item>
+      <item>
+        <label>Letrina y foza</label>
+        <value>letrina_y_foza</value>
+      </item>
+      <item>
+        <label>Otras formas no detalladas anteriormente</label>
+        <value>otras_formas_no_detalladas_anteriormente</value>
+      </item>
+      <item>
+        <label>La construcción es de albañilería</label>
+        <value>la_construcci_n_es_de_alba_iler_a</value>
+      </item>
+      <item>
+        <label>La construcción es de otros materiales</label>
+        <value>la_construcci_n_es_de_otros_materiales</value>
+      </item>
+    </select>
+    <select ref="/data/En_que_capacitaciones_ha_participado">
+      <label>En que capacitaciones ha participado</label>
+      <item>
+        <label>Agricultura</label>
+        <value>agricultura</value>
+      </item>
+      <item>
+        <label>Ganadería</label>
+        <value>ganader_a</value>
+      </item>
+      <item>
+        <label>Para emprendimientos</label>
+        <value>para_emprendimientos</value>
+      </item>
+      <item>
+        <label>Para participar en organización</label>
+        <value>para_participar_en_organizaci_n</value>
+      </item>
+      <item>
+        <label>De manejo de recursos naturales</label>
+        <value>de_manejo_de_recursos_naturales</value>
+      </item>
+      <item>
+        <label>Temas de derechos humanos y legales</label>
+        <value>temas_de_derechos_humanos_y_legales</value>
+      </item>
+      <item>
+        <label>Temas de salud</label>
+        <value>temas_de_salud</value>
+      </item>
+      <item>
+        <label>Temas de alimentación y manejo de alimentos</label>
+        <value>temas_de_alimentaci_n_y_manejo_de_alimen</value>
+      </item>
+      <item>
+        <label>Otros</label>
+        <value>otros</value>
+      </item>
+    </select>
+  </h:body>
+</h:html>

@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Nueva Linea Base</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Single Page Start -->
+        <div class="single">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Crear Linea Base</h2>
+                </div>
+            </div>
+                <center>
+                <div class="row">
+                    <div class="col-12">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ formulario.as_p }}
+                    <div>
+                    <button class="btn" type="submit" id="sendMessageButton">Cargar</button>
+                    </div>
+                </form>
+                    </div>
+                    </div>
+                    </center>
+            </div>
+        </div>
+        <!-- Single Page End -->
+{% endblock %}

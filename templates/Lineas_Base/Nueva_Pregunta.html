@@ -1,0 +1,62 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Nueva Pregunta</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Single Page Start -->
+        <div class="single">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Crear Pregunta</h2>
+                </div>
+            </div>
+                <center>
+                <div class="row">
+                    <div class="col-12">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                     <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+                        Tipo de Pregunta
+                     </label>
+                    <select name="Tipo_q" id="Tipo_q">
+                        <option value="text">Texto</option>
+                        <option value="num">Numérico</option>
+                        <option value="multi">Selección Múltiple</option>
+                        <option value="uni">Selección Única </option>
+                        <option value="foto"> Foto </option>
+                        <option value="Ubi"> Ubicación </option>
+                    </select></br>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+                        Enunciado
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Enunciado" id="Enunciado"  required placeholder="Enunciado">
+                    </br>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+                        Opciones
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Opciones" id="Opciones"  required placeholder="Opciones">
+
+                    <div>
+                    <button class="btn" type="submit" id="sendMessageButton">Guardar</button>
+                    </div>
+                </form>
+                    </div>
+                    </div>
+                    </center>
+            </div>
+        </div>
+        <!-- Single Page End -->
+{% endblock %}

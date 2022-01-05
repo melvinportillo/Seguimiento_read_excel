@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Ejemplo_1</h:title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <data id="simple">
+          <Nombre/>
+          <Sexo/>
+          <Edad/>
+          <Posicion/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind nodeset="/data/Nombre" type="string"/>
+      <bind nodeset="/data/Sexo" type="string"/>
+      <bind nodeset="/data/Edad" type="int"/>
+      <bind nodeset="/data/Posicion" type="geopoint"/>
+      <bind jr:preload="uid" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/Nombre">
+      <label>Nombre</label>
+    </input>
+    <select1 ref="/data/Sexo">
+      <label>Sexo</label>
+      <item>
+        <label>Femenino</label>
+        <value>F</value>
+      </item>
+      <item>
+        <label>Masculino</label>
+        <value>M</value>
+      </item>
+    </select1>
+    <input ref="/data/Edad">
+      <label>Edad</label>
+    </input>
+    <input ref="/data/Posicion">
+      <label>Posicion</label>
+    </input>
+  </h:body>
+</h:html>
