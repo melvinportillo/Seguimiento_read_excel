@@ -9,9 +9,10 @@ from .utils.xform_tools import formversion_pyxform
 from graphos.sources.simple import SimpleDataSource
 from graphos.renderers.gchart import LineChart, BarChart, PieChart, ColumnChart
 import pandas as pd
-
+import requests
+import io
 import gdown
-
+from googleapiclient.http import MediaIoBaseDownload
 
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -244,11 +245,20 @@ class Graficos(TemplateView):
 
 class Excel_to_bd(TemplateView):
     def get(self, request, *args, **kwargs):
-        file_id='1cKfCnZptYxvrgbjgrcy6m0EZVtC6RteXLC6C6lIzU-s'
-        url = 'https://docs.google.com/spreadsheet/ccc?key='+file_id+'&output=xlsx'
-        output = 'E2.xlsx'
-        gdown.download(url, output, quiet=False)
-        df = pd.read_excel('E2.xlsx')
+        # Script for authorization of pydrive.
+        gauth = GoogleAuth()
+        gauth.LocalWebserverAuth()
+
+        # Download the specific sheet in Google Spreadsheet as a CSV data.
+        spreadsheetId = '1NOuAwCEBfAKK8-tWMHMmMxx8wiOmUnLaubvoOnkwfHI'  # Please set the Spreadsheet ID.
+        sheetId = '0'  # Please set the sheet ID. (GID)
+        url = 'https://docs.google.com/spreadsheets/d/' + spreadsheetId + '/gviz/tq?tqx=out:csv&gid=' + sheetId
+        headers = {'Authorization': 'Bearer ' + gauth.credentials.access_token}
+        res = requests.get(url, headers=headers)
+        with open('File.csv', 'wb') as f:
+            f.write(res.content)
+
+        df = pd.read_csv('File.csv',encoding='latin-1')
         dc = {}
         lista_ignorar = ['data-start', 'data-end', 'data-meta-instanceID', 'data-Nombre_de_la_persona_encuestada',
                          'data-Sexo_de_la_persona_encuestada',
@@ -267,44 +277,55 @@ class Excel_to_bd(TemplateView):
             alternativa = str(i).replace('data-', '')
             if alternativa[0:2]=='I_' or alternativa[0:3]=='II_' or alternativa[0:4]=='III_' or alternativa[0:3]=='IV_':
                 continue
+            x = 0
+            dc_frecuencias = {}
             for j in range(len(l)):
-                l3=Datos_Encuestas.objects.filter(Usuario=request.user.username, Encuesta=3).count()
+                l3=Datos_Encuestas.objects.filter(Usuario=request.user.username, Encuesta=4).count()
                 if l3==0:
-                    altclase=str(l[j]).replace('_', ' ')
+                    altclase1=(str(l[j]).replace('_', ' '))
+                    altclase=altclase1#.encode('latin1').decode('utf8')
                     if altclase==' ':
                         altclase='Null'
-                        '''
-                    if ', ' in str(l[j]):
-                        print ('entrooooooooo')
+                    if j==0:
+                        for g in range(len(l)):
+                            if ', ' in str(l[g]):
+                                x=num_preg
+                                break
+
+                    if x==num_preg:
                         lista_frecuencias_sm=[]
                         lista_seleccion_multiple=altclase.split(', ')
-                        lista_frecuencias_sm.extend(lista_seleccion_multiple)
+                        for s in lista_seleccion_multiple:
+                            if s in dc_frecuencias:
+                                frec=dc_frecuencias[s]+l1[j]
+                            else:
+                                frec=l1[j]
+                            dc_frecuencias[s]=frec
                         if (j+1)==len(l):
-                            dc_fracuencias=dict(zip(lista_frecuencias_sm, map(lambda x: lista_frecuencias_sm.count(x), lista)))
-                            for k in dc_fracuencias:
+                            for k in dc_frecuencias:
                                 a = Datos_Encuestas(
                                     Usuario=request.user.username,
                                     Encuesta=3,
                                     Num_Pregunta=num_preg,
                                     Label=alternativa.replace('_', ' '),
-                                    Clase=k,
-                                    Frecuencia=dc_fracuencias[k]
+                                    Clase=k,#.encode('latin1').decode('utf8'),
+                                    Frecuencia=dc_frecuencias[k]
                                 )
                                 a.save()
-                            continue
 
-                    else:'''
-                    a = Datos_Encuestas(
-                        Usuario=request.user.username,
-                        Encuesta=3,
-                        Num_Pregunta=num_preg,
-                        Label=alternativa.replace('_', ' '),
-                        Clase=altclase,
-                        Frecuencia=int(l1[j])
-                    )
-                    a.save()
+                    else:
+                        a = Datos_Encuestas(
+                            Usuario=request.user.username,
+                            Encuesta=3,
+                            Num_Pregunta=num_preg,
+                            Label=alternativa.replace('_', ' '),
+                            Clase=altclase,
+                            Frecuencia=int(l1[j])
+                        )
+                        a.save()
                 else:
-                    altclase = str(l[j]).replace('_', ' ')
+                    altclase1 = (str(l[j]).replace('_', ' '))
+                    altclase = altclase1#.encode('latin1').decode('utf8')
                     if altclase == ' ':
                         altclase = 'Null'
                     l2=Datos_Encuestas.objects.filter(Usuario=request.user.username, Encuesta=3, Clase= altclase,
@@ -315,7 +336,7 @@ class Excel_to_bd(TemplateView):
                             Usuario=request.user.username,
                             Encuesta=3,
                             Num_Pregunta=num_preg,
-                            Label=alternativa.replace('_', ' '),
+                            Label=alternativa,
                             Clase=altclase,
                             Frecuencia=int(l1[j])
                         )
