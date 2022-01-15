@@ -14,6 +14,14 @@ import io
 import gdown
 from googleapiclient.http import MediaIoBaseDownload
 
+import folium
+from folium import plugins
+from folium.plugins import MarkerCluster
+from folium.plugins import Search
+import geocoder
+
+import json
+
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -242,6 +250,73 @@ class Graficos(TemplateView):
                    }
         return render(request, "Lineas_Base/graficos.html", {'output': pie3d.render(), 'chartTitle': 'Resultados', 'Encuesta': Num_Encuest,
                    'Pregunta': Num_Preguta})
+
+class Geocoordenadas(TemplateView):
+    def get(self,request,*args, **kwargs):
+
+        '''if lat == None or lng == None:
+            address.delete()
+            return HttpResponse('You address input is invalid')'''
+
+        # Create Map Object
+        m = folium.Map(location=[15.199999, -86.241905], zoom_start=8,  control_scale=True)
+        marker_cluster = MarkerCluster().add_to(m)
+        folium.TileLayer('Stamen Terrain').add_to(m)
+        folium.TileLayer('Stamen Toner').add_to(m)
+        folium.TileLayer('Stamen Water Color').add_to(m)
+        folium.TileLayer('cartodb positron').add_to(m)
+        folium.TileLayer('cartodb dark_matter').add_to(m)
+        folium.LayerControl().add_to(m)
+
+        Encuestados_por_encuesta=Coordenadas.objects.filter(Encuesta=3).count()
+
+        for i in range(Encuestados_por_encuesta):
+            lat = Coordenadas.objects.get(id=(i+1)).Latitud
+            lng = Coordenadas.objects.get(id=(i + 1)).Longitud
+            Nombre = Coordenadas.objects.get(id=(i + 1)).Encuestado
+            DNI = Coordenadas.objects.get(id=(i + 1)).DNI_Encuestado
+            Sexo = Coordenadas.objects.get(id=(i + 1)).Sexo
+            Estado_civil = Coordenadas.objects.get(id=(i + 1)).Estado_civil
+            Numero_de_telefono = Coordenadas.objects.get(id=(i + 1)).Num_telefono
+            Diosesis = Coordenadas.objects.get(id=(i + 1)).Diosesis
+            url = Coordenadas.objects.get(id=(i + 1)).Link_foto
+            foto_id = url.split('id=')
+            if len(foto_id) < 2:
+                foto_id = ['d', 'd']
+            html = f"""
+                    <h1> {Nombre}</h1>
+                    <p>Datos generales:</p>
+                    <ul>
+                        <li>Nombre: {Nombre}</li>
+                        <li>DNI: {DNI}</li>
+                        <li>Sexo: {Sexo}</li>
+                        <li>Estado cívil: {Estado_civil}</li>
+                        <li>Teléfono: {Numero_de_telefono}</li>
+                        <li>Diócesis: {Diosesis}</li>
+                        <li>Coordenadas: {lat}, {lng}</li>
+                    </ul>
+                    <img src="https://drive.google.com/uc?id={foto_id[1]}" width="340">
+                    """
+            iframe = folium.IFrame(html=html, width=350, height=400)
+            popup = folium.Popup(iframe, max_width=2650)
+            folium.Marker([lat, lng], tooltip=Nombre,
+                          popup=popup, name=DNI).add_to(marker_cluster)
+        #search
+
+
+        servicesearch = Search(
+            layer=marker_cluster,
+            search_label="name",
+            placeholder='Search for a service',
+            collapsed=False,
+        ).add_to(m)
+        # Get HTML Representation of Map Object
+        m = m._repr_html_()
+        context = {
+            'm': m,
+        }
+
+        return render(request,"Coordenadas.html",context)
 
 class Excel_to_bd(TemplateView):
     def get(self, request, *args, **kwargs):

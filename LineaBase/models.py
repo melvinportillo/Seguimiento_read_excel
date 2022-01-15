@@ -64,3 +64,5 @@ class Coordenadas(models.Model):
     Altitud= models.CharField(max_length=11)
     Geolocalizacion_acuracy = models.CharField(max_length=15)
     Link_foto= models.CharField(max_length=100)
+
+
