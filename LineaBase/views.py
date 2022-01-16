@@ -284,8 +284,8 @@ class Geocoordenadas(TemplateView):
             if len(foto_id) < 2:
                 foto_id = ['d', 'd']
             html = f"""
-                    <h1> {Nombre}</h1>
-                    <p>Datos generales:</p>
+                    <h2> {Nombre}</h2>
+                    <h3>Datos generales:</h3>
                     <ul>
                         <li>Nombre: {Nombre}</li>
                         <li>DNI: {DNI}</li>
