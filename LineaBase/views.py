@@ -307,7 +307,7 @@ class Geocoordenadas(TemplateView):
         servicesearch = Search(
             layer=marker_cluster,
             search_label="name",
-            placeholder='Search for a service',
+            placeholder='Buscar por DNI',
             collapsed=False,
         ).add_to(m)
         # Get HTML Representation of Map Object
