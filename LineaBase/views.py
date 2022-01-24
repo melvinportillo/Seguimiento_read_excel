@@ -260,14 +260,16 @@ class Geocoordenadas(TemplateView):
 
         # Create Map Object
         m = folium.Map(location=[15.199999, -86.241905], zoom_start=8,  control_scale=True)
+        #crear marcas
         marker_cluster = MarkerCluster().add_to(m)
+        #añadir estilos de mapas
         folium.TileLayer('Stamen Terrain').add_to(m)
         folium.TileLayer('Stamen Toner').add_to(m)
         folium.TileLayer('Stamen Water Color').add_to(m)
         folium.TileLayer('cartodb positron').add_to(m)
         folium.TileLayer('cartodb dark_matter').add_to(m)
         folium.LayerControl().add_to(m)
-
+        #filtrar encuestados por nombre de encuesta
         Encuestados_por_encuesta=Coordenadas.objects.filter(Encuesta=3).count()
 
         for i in range(Encuestados_por_encuesta):
@@ -283,6 +285,7 @@ class Geocoordenadas(TemplateView):
             foto_id = url.split('id=')
             if len(foto_id) < 2:
                 foto_id = ['d', 'd']
+            #formato de tabla
             html_format="""<head>
                         <meta name="viewport" content="width=device-width, initial-scale=1">
                         <style>
@@ -303,6 +306,7 @@ class Geocoordenadas(TemplateView):
                         }
                         </style>
                         </head>"""
+            #datos de tabla
             html = html_format + f"""
                     <h2> {Nombre}</h2>
                     <body>
@@ -349,8 +353,6 @@ class Geocoordenadas(TemplateView):
             folium.Marker([lat, lng], tooltip=Nombre,
                           popup=popup, name=DNI).add_to(marker_cluster)
         #search
-
-
         servicesearch = Search(
             layer=marker_cluster,
             search_label="name",
