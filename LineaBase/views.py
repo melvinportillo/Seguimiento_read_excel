@@ -283,19 +283,66 @@ class Geocoordenadas(TemplateView):
             foto_id = url.split('id=')
             if len(foto_id) < 2:
                 foto_id = ['d', 'd']
-            html = f"""
+            html_format="""<head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                        table {
+                          border-collapse: collapse;
+                          border-spacing: 0;
+                          width: 100%;
+                          border: 1px solid #ddd;
+                        }
+                        
+                        th, td {
+                          text-align: left;
+                          padding: 16px;
+                        }
+                        
+                        tr:nth-child(even) {
+                          background-color: #f2f2f2;
+                        }
+                        </style>
+                        </head>"""
+            html = html_format + f"""
                     <h2> {Nombre}</h2>
-                    <h3>Datos generales:</h3>
-                    <ul>
-                        <li>Nombre: {Nombre}</li>
-                        <li>DNI: {DNI}</li>
-                        <li>Sexo: {Sexo}</li>
-                        <li>Estado cívil: {Estado_civil}</li>
-                        <li>Teléfono: {Numero_de_telefono}</li>
-                        <li>Diócesis: {Diosesis}</li>
-                        <li>Coordenadas: {lat}, {lng}</li>
-                    </ul>
-                    <img src="https://drive.google.com/uc?id={foto_id[1]}" width="340">
+                    <body>
+                    <table>
+                    <tr>
+                    <th colspan="2">Datos Generales</th>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>{Nombre}</td>
+                    </tr>
+                    <tr>
+                        <td>DNI</td>
+                        <td>{DNI}</td>
+                    </tr>
+                    <tr>
+                        <td>Sexo</td>
+                        <td>{Sexo}</td>
+                    </tr>
+                    <tr>
+                        <td>Estado cívil</td>
+                        <td>{Estado_civil}</td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono</td>
+                        <td>{Numero_de_telefono}</td>
+                    </tr>
+                    <tr>
+                        <td>Diócesis</td>
+                        <td>{Diosesis}</td>
+                    </tr>
+                    <tr>
+                        <td>Coordenadas</td>
+                        <td>{lat}, {lng}</td>
+                    </tr>
+                    </table>
+
+                    </body>
+                    <p align="left">Foto: </p>
+                    <img src="https://drive.google.com/uc?id={foto_id[1]}" width="320">
                     """
             iframe = folium.IFrame(html=html, width=350, height=400)
             popup = folium.Popup(iframe, max_width=2650)
