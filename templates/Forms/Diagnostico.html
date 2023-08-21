@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página con tablas ocultables</title>
+  <style>
+/* Estilos generales de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Estilo para ocultar las tablas inicialmente */
+.comparable-table {
+  display: none;
+  opacity: 0;
+  animation: fadeInOut 0.8s ease;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para mostrar las tablas cuando estén visibles */
+.comparable-table.visible {
+  display: table;
+  opacity: 1;
+  animation: fadeIn 0.8s ease;
+}
+
+/* Estilo para agregar bordes redondeados a las imágenes */
+.comparable-table img {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease;
+  max-width: 100%;
+}
+
+/* Estilo para mostrar las imágenes cuando estén visibles */
+.comparable-table.visible img {
+  opacity: 1;
+}
+
+/* Estilo para agregar líneas divisorias entre las imágenes */
+.comparable-table td {
+  border-right: 1px solid #ccc;
+  vertical-align: middle; /* Centrar las imágenes verticalmente */
+}
+
+/* Estilo para eliminar la línea divisorias en la última celda de la tabla */
+.comparable-table td:last-child {
+  border-right: none;
+}
+
+/* Estilo para centrar el contenedor de la tabla */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+  </style>
+</head>
+<body>
+  <body>
+    <div class="container">
+      <h1>Tabla 1 - Diagnóstico 1</h1>
+      <div class="table-container">
+        <table class="comparable-table">
+          <tr>
+            <td>
+              <h2>Prueba Inicial</h2>
+              <img src="imagen1.jpg" alt="Imagen 1">
+            </td>
+            <td>
+              <h2>Prueba Final</h2>
+              <img src="imagen2.jpg" alt="Imagen 2">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const titulos = document.querySelectorAll('h1');
+  const tablas = document.querySelectorAll('.comparable-table');
+
+  titulos.forEach((titulo, index) => {
+    titulo.addEventListener('click', function () {
+      const tabla = tablas[index];
+      const isTablaVisible = tabla.classList.contains('visible');
+
+      // Ocultar todas las tablas visibles excepto la tabla clicada
+      tablas.forEach((tabla) => {
+        if (tabla !== tablas[index]) {
+          tabla.classList.remove('visible');
+        }
+      });
+
+      // Alternar la visibilidad de la tabla clicada
+      if (isTablaVisible) {
+        tabla.classList.remove('visible');
+      } else {
+        tabla.classList.add('visible');
+      }
+    });
+  });
+});
+
+  </script>
+</body>
+</html>
