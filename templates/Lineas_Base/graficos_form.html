@@ -17,36 +17,83 @@
 
 
         <!-- Single Page Start -->
-        <div class="single">
+       <!-- <div class="single">
             <div class="container">
-                <div class="section-header text-center">
-                    <h2>Mostrar Gráfico</h2>
-                </div>
-            </div>
                 <center>
-                <div class="row">
-                    <div class="col-12">
-                <form method="post" enctype="multipart/form-data">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div>
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+                                Encuesta
+                            </label>
+                        </div>
+                        <div>
+                            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Encuesta" id="Encuesta"  required placeholder="Encuesta">
+
+                                <option value="1">¿Sabe quien es el financiador del proyecto?</option>
+
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit" id="sendMessageButton">Seleccionar</button></div>
+                    </form>
+
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div>
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
+                                Pregunta
+                            </label>
+                        </div>
+                        <div>
+                            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Pregunta" id="Pregunta"  required placeholder="Pregunta">
+
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit" id="sendMessageButton">Gráficar</button>
+                        </div>
+                    </form>
+                </center>
+            </div>
+        </div>-->
+    <center>
+        <div class="row">
+            <div class="col-12">
+                <form action="/lineabase/preguntas/" method="post" enctype="multipart/form-data">
                     {% csrf_token %}
 
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
-                        Número de Encuesta
-                    </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Encuesta" id="Encuesta"  required placeholder="Encuesta">
-                    </br>
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
-                        Número de Pregunta
-                    </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Pregunta" id="Pregunta"  required placeholder="Pregunta">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Encuesta</label>
+                          <br/>
+                        <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Encuesta" id="Encuesta"  required placeholder="Encuesta" href="http://127.0.0.1:8000/lineabase/coordenadas/">
+                            {{ option|safe }}
+                        </select>
+                    </div>
 
-                    <div>
-                    <button class="btn" type="submit" id="sendMessageButton">Graficar</button>
-                    </div>
                 </form>
-                    </div>
-                    </div>
-                    </center>
             </div>
         </div>
+        <div class="row">
+                <div class="col-12">
+                    <form action="/lineabase/graficos/" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Pregunta</label>
+                              <br/>
+                            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border rounded-md border-gray-500 focus:outline-none focus:shadow-outline" name="Pregunta" id="Pregunta"  required placeholder="Pregunta" onchange="this.form.submit()">
+                            {{ option1|safe }}
+                        </select>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+    </center>
+
+
         <!-- Single Page End -->
 {% endblock %}

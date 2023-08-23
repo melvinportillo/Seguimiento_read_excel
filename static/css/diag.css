@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container1 {
+  width: 903px;
+  margin: 0 auto;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Estilo para ocultar las tablas inicialmente */
+.comparable-table {
+  display: none;
+  opacity: 0;
+  animation: fadeInOut 0.8s ease;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para mostrar las tablas cuando estén visibles */
+.comparable-table.visible {
+  display: table;
+  opacity: 1;
+  animation: fadeIn 0.8s ease;
+}
+
+/* Estilo para agregar bordes redondeados a las imágenes */
+.comparable-table img {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease;
+  max-width: 100%;
+}
+
+/* Estilo para mostrar las imágenes cuando estén visibles */
+.comparable-table.visible img {
+  opacity: 1;
+}
+
+/* Estilo para agregar líneas divisorias entre las imágenes */
+.comparable-table td {
+  border-right: 1px solid #ccc;
+  vertical-align: middle; /* Centrar las imágenes verticalmente */
+}
+
+/* Estilo para eliminar la línea divisorias en la última celda de la tabla */
+.comparable-table td:last-child {
+  border-right: none;
+}
+
+/* Estilo para centrar el contenedor de la tabla */
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.filter-input {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 14px;
+  color: black;
+}
+#tema{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.filter-input:focus {
+  outline: none;
+  border-color: #666;
+}
+/* Estilos generales del select */
+#opciones {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px; /* Ajusta el espaciado interno si es necesario */
+  border: 2px solid #ccc; /* Borde suave */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #f5f5f5; /* Color de fondo suave */
+  color: #333; /* Color del texto */
+  appearance: none; /* Elimina el estilo de select predeterminado en algunos navegadores */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del select */
+}
+
+/* Estilos para las opciones */
+#opciones option {
+  background-color: #ebebeb; /* Color de fondo suave para opciones */
+  color: #333; /* Color del texto de las opciones */
+}
+
+/* Estilos para alternar colores suaves */
+#opciones option:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+#opciones option:nth-child(odd) {
+  background-color: #ebebeb;
+}
+
+/* Estilos para el hover */
+#opciones option:hover {
+  background-color: #dcdcdc; /* Color de fondo cuando se pasa el cursor por una opción */
+}
+
+

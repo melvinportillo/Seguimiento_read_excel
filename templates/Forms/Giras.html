@@ -1,0 +1,80 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Localización de Eventos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" >
+            <head>
+
+                <!-- Required meta tags -->
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <!-- Bootstrap CSS -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+                    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+                 <link rel="stylesheet" href="{% static 'css/giras.css' %}">
+
+                <title>Home Page</title>
+            </head>
+
+            <table id="myTable">
+              <tr>
+                <th><input type="text" class="filter-input" data-column="0"></th>
+                <th><input type="text" class="filter-input" data-column="1"></th>
+                <th><input type="text" class="filter-input" data-column="2"></th>
+                <th><input type="text" class="filter-input" data-column="3"></th>
+                <th><input type="text" class="filter-input" data-column="4"></th>
+                <th><input type="text" class="filter-input" data-column="5"></th>
+                <th><input type="text" class="filter-input" data-column="6"></th>
+                <th><input type="text" class="filter-input" data-column="7"></th>
+                <th><input type="text" class="filter-input" data-column="8"></th>
+                <th><input type="text" class="filter-input" data-column="9"></th>
+              </tr>
+              {{ t|safe }}
+            </table>
+            <div id="popup" class="popup">
+                <img id="image" src="" width="380">
+            </div>
+            <div id="k0" style="display: block;" class="popup">
+                <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css" />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+                <p>
+                    <div style="width:100%;">
+                        <div id="map" style="position:relative;width:100%;height:0;padding-bottom:60%;">
+                            <span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span>
+                        </div>
+                    </div>
+                </p>
+            </div>
+
+                <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                    crossorigin="anonymous"></script>
+                <script src="{% static 'js/giras.js' %}"></script>
+            </body>
+        </div>
+
+        <!-- Single Page End -->
+{% endblock %}
+
+

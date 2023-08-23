@@ -7,7 +7,7 @@ import string
 
 from django.utils import  timezone
 import  six
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.functional import Promise
 from django.db.models.query import QuerySet
 
@@ -54,7 +54,7 @@ class JSONEncoderForHTML(json.JSONEncoder):
         # For Date Time string spec, see ECMA 262
         # http://ecma-international.org/ecma-262/5.1/#sec-15.9.1.15
         if isinstance(obj, Promise):
-            return force_text(obj)
+            return force_str(obj)
         elif isinstance(obj, datetime.datetime):
             representation = obj.isoformat()
             if representation.endswith('+00:00'):

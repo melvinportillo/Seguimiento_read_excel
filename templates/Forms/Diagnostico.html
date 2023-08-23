@@ -1,132 +1,192 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Página con tablas ocultables</title>
-  <style>
-/* Estilos generales de la página */
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-h1 {
-  cursor: pointer;
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f1f1f1;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-/* Estilo para ocultar las tablas inicialmente */
-.comparable-table {
-  display: none;
-  opacity: 0;
-  animation: fadeInOut 0.8s ease;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilo para mostrar las tablas cuando estén visibles */
-.comparable-table.visible {
-  display: table;
-  opacity: 1;
-  animation: fadeIn 0.8s ease;
-}
-
-/* Estilo para agregar bordes redondeados a las imágenes */
-.comparable-table img {
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: opacity 0.5s ease;
-  max-width: 100%;
-}
-
-/* Estilo para mostrar las imágenes cuando estén visibles */
-.comparable-table.visible img {
-  opacity: 1;
-}
-
-/* Estilo para agregar líneas divisorias entre las imágenes */
-.comparable-table td {
-  border-right: 1px solid #ccc;
-  vertical-align: middle; /* Centrar las imágenes verticalmente */
-}
-
-/* Estilo para eliminar la línea divisorias en la última celda de la tabla */
-.comparable-table td:last-child {
-  border-right: none;
-}
-
-/* Estilo para centrar el contenedor de la tabla */
-.table-container {
-  display: flex;
-  justify-content: center;
-}
-
-  </style>
-</head>
-<body>
-  <body>
-    <div class="container">
-      <h1>Tabla 1 - Diagnóstico 1</h1>
-      <div class="table-container">
-        <table class="comparable-table">
-          <tr>
-            <td>
-              <h2>Prueba Inicial</h2>
-              <img src="imagen1.jpg" alt="Imagen 1">
-            </td>
-            <td>
-              <h2>Prueba Final</h2>
-              <img src="imagen2.jpg" alt="Imagen 2">
-            </td>
-          </tr>
-        </table>
-      </div>
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% load static %}
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/diag.css' %}">
+    </head>
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Capacitaciones</h2>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="single">
+        <div class="container">
+            <div style="text-align: center; display: flex; justify-content: center;">
+                <select id="opciones" onchange="mostrarDivSeleccionado()">
+                    {{ tr|safe }}
+                </select>
+            </div>
+        </div>
+    </div>
+    <body style="font-family:'Helvetica Neue', Arial; font-size: 14px;">
+    <div style="text-align: center; display: flex; justify-content: center;">
+        <table id="infocompleta" style="width: 1050px">
+            <tbody>
+            <tr>
+                <td colspan="5" id="tema"></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; border: 1px solid #999; font-weight: bold; font-size: 16px; padding: 8px;">Llave: </td>
+                <td style="width: 150px; border: 1px solid #999; font-weight: bold; font-size: 16px; padding: 8px;">Unidad: </td>
+                <td style="width: 200px; border: 1px solid #999; font-weight: bold; font-size: 16px; padding: 8px;">Técnico: </td>
+                <td style="width: 500px; border: 1px solid #999; font-weight: bold; font-size: 16px; padding: 8px;">Proyecto: </td>
+                <td style="width: 100px; border: 1px solid #999; font-weight: bold; font-size: 16px; padding: 8px;">Fecha: </td>
+            </tr>
+            <tr>
+                <td id="llave" style="border: 1px solid #999; padding: 8px;"></td>
+                <td id="unidad" style="border: 1px solid #999; padding: 8px;"></td>
+                <td id="tecnico" style="border: 1px solid #999; padding: 8px;"></td>
+                <td id="proyecto" style="border: 1px solid #999; padding: 8px;"></td>
+                <td id="fecha" style="border: 1px solid #999; padding: 8px;"></td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Diagnóstico 1</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Inicial</h2>
+                                        <img id="pi1" src="" width="450px"/>
+                                    </td>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Final</h2>
+                                        <img id="pf1" src="" width="450px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Diagnóstico 2</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Inicial</h2>
+                                        <img id="pi2" src="" width="450px"/>
+                                    </td>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Final</h2>
+                                        <img id="pf2" src="" width="450px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Diagnóstico 3</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Inicial</h2>
+                                        <img id="pi3" src="" width="450px"/>
+                                    </td>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Final</h2>
+                                        <img id="pf3" src="" width="450px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Diagnóstico 4</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Inicial</h2>
+                                        <img id="pi4" src="" width="450px"/>
+                                    </td>
+                                    <td>
+                                        <h2 style="font-size: 16px;">Prueba Final</h2>
+                                        <img id="pf4" src="" width="450px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Lista de asistencia</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <img id="asistencia" src="" width="900px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Foto del evento</h1>
+                        <div class="table-container">
+                            <table class="comparable-table">
+                                <tr>
+                                    <td>
+                                        <img id="evento" src="" width="900px"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <div class="container1">
+                        <h1 style="font-weight: bold; font-size: 16px;">Ubicación</h1>
+                        <div class="table-container">
+                            <div style="padding: 8px;text-align: center; display: flex; justify-content: center;">
+                                <div id="k0" style="display: block; width: 600px;" class="popup">
+                                    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+                                    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+                                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css" />
+                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+                                    <p>
+                                    <div style="width:100%;">
+                                        <div id="map" style="position:relative;width:100%;height:0;padding-bottom:60%;">
+                                            <span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span>
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Observaciones</td>
+                <td colspan="4" id="observaciones">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="{% static 'js/diag.js' %}"></script>
+{% endblock %}
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-  const titulos = document.querySelectorAll('h1');
-  const tablas = document.querySelectorAll('.comparable-table');
-
-  titulos.forEach((titulo, index) => {
-    titulo.addEventListener('click', function () {
-      const tabla = tablas[index];
-      const isTablaVisible = tabla.classList.contains('visible');
-
-      // Ocultar todas las tablas visibles excepto la tabla clicada
-      tablas.forEach((tabla) => {
-        if (tabla !== tablas[index]) {
-          tabla.classList.remove('visible');
-        }
-      });
-
-      // Alternar la visibilidad de la tabla clicada
-      if (isTablaVisible) {
-        tabla.classList.remove('visible');
-      } else {
-        tabla.classList.add('visible');
-      }
-    });
-  });
-});
-
-  </script>
-</body>
-</html>
